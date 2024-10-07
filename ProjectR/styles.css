@@ -1,0 +1,14 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+#box-one {
+    background-color: cyan;
+    padding: 10px;
+}
+
+#box-two {
+    background-color: violet;
+    padding: 10px;
+}
