@@ -1,5 +1,4 @@
 import requests
-print("hello world")
 
 def test_api():
     response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
