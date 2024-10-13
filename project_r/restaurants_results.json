@@ -1,0 +1,626 @@
+[
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 2.54
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 2.12
+    },
+    {
+        "name": "Von Jakob Winery & Brewery",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 37.41
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.7,
+        "distance_km": 13.25
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.1,
+        "distance_km": 33.13
+    },
+    {
+        "name": "Jimmy John's",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 0.6
+    },
+    {
+        "name": "Pizza Inn",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "distance_km": 15.02
+    },
+    {
+        "name": "Little Caesars",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 0.69
+    },
+    {
+        "name": "Red Lobster",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "distance_km": 3.13
+    },
+    {
+        "name": "Texas Roadhouse",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "distance_km": 3.28
+    },
+    {
+        "name": "Starbucks",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "cafe",
+            "restaurant",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "distance_km": 3.02
+    },
+    {
+        "name": "Olive Garden Italian Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "distance_km": 3.03
+    },
+    {
+        "name": "Logan's Roadhouse",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "distance_km": 2.51
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 48.36
+    },
+    {
+        "name": "Pizza Inn",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 47.9
+    },
+    {
+        "name": "China Wok",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "distance_km": 1.28
+    },
+    {
+        "name": "Taco Bell",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.6,
+        "distance_km": 2.68
+    },
+    {
+        "name": "Sonic Drive-In",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 3.56
+    },
+    {
+        "name": "Penn Station East Coast Subs",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "distance_km": 3.58
+    },
+    {
+        "name": "Pizza Pro",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.6,
+        "distance_km": 18.62
+    },
+    {
+        "name": "Babe's Fish Wagon",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.8,
+        "distance_km": 4.99
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 2.56
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 2.1
+    },
+    {
+        "name": "Jimmy John's",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 0.57
+    },
+    {
+        "name": "Little Caesars",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "distance_km": 0.71
+    },
+    {
+        "name": "Red Lobster",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "distance_km": 3.16
+    },
+    {
+        "name": "Texas Roadhouse",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "distance_km": 3.3
+    },
+    {
+        "name": "Starbucks",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "distance_km": 3.04
+    },
+    {
+        "name": "Olive Garden Italian Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "distance_km": 3.06
+    },
+    {
+        "name": "Logan's Roadhouse",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "distance_km": 2.53
+    },
+    {
+        "name": "China Wok",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "distance_km": 1.26
+    },
+    {
+        "name": "Taco Bell",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.6,
+        "distance_km": 2.7
+    },
+    {
+        "name": "Sonic Drive-In",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 3.59
+    },
+    {
+        "name": "Penn Station East Coast Subs",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "distance_km": 3.6
+    },
+    {
+        "name": "Green's Garden",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "cafe",
+            "health",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.9,
+        "distance_km": 2.91
+    },
+    {
+        "name": "Dunkin'",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "bakery",
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "distance_km": 1.07
+    },
+    {
+        "name": "Midori Japanese Cuisine",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "distance_km": 1.41
+    },
+    {
+        "name": "Panda Express",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 2.9,
+        "distance_km": 1.43
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.8,
+        "distance_km": 1.44
+    },
+    {
+        "name": "Redhawks Market",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 3.3,
+        "distance_km": 1.44
+    },
+    {
+        "name": "Watami Sushi & Hibachi Steakhouse (Cape Girardeau)",
+        "business_status": "OPERATIONAL",
+        "address": null,
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "distance_km": 1.48
+    }
+]
