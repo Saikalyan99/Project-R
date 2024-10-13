@@ -8,7 +8,7 @@ class RestaurantSearchApp:
         self.latitude = None
         self.longitude = None
         self.search_radius = None
-        self.validator = CoordinateValidator("8826c191c0msh5595428de25ba9ap1c69acjsnf442cc8cc26d")  # Might put the key in a file later!
+        self.validator = CoordinateValidator("8826c191c0msh5595428de25ba9ap1c69acjsnf442cc8cc26d")  # Might put this key in txt file later!
 
     def load_api_key(self):
         """
