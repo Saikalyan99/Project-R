@@ -1,0 +1,20 @@
+[
+    {
+        "fname": "Nathan",
+        "lname": "Kiehl",
+        "age": 23,
+        "money": 1234.56
+    },
+    {
+        "fname": "Sarah",
+        "lname": "Melton",
+        "age": 24,
+        "money": 234.10
+    },
+    {
+        "fname": "Sai",
+        "lname": "Kalyan",
+        "age": 28,
+        "money": 6854.56
+    }
+]
