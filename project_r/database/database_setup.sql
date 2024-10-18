@@ -48,6 +48,7 @@ CREATE TABLE Store_Tags (
 -- Load JSON Data
 Load Data Local Infile '/home/nathan/restaurants.rsv' INTO TABLE StoreJSON(JSONdata);
 
+-- Store Table
 INSERT INTO Stores (StoreID, StoreName, Rating, RatingNum)
 SELECT StoreID,
        JSON_UNQUOTE(JSON_EXTRACT(JSONdata, '$.name')) AS StoreName,
@@ -55,6 +56,7 @@ SELECT StoreID,
        JSON_EXTRACT(JSONdata, '$.user_ratings_total') AS RatingNum
 FROM StoreJSON;
 
+-- Address Table
 INSERT INTO Address (StoreID, StreetNum, StreetName,
                      AptNum, CityName, StateName,
                      ZipCode, Country)
@@ -68,57 +70,91 @@ SELECT StoreID,
        JSON_UNQUOTE(JSON_EXTRACT(JSONdata, '$.address[0].country')) AS Country
 FROM StoreJSON;
 
+-- Tags Tables
+INSERT IGNORE INTO Tags (TagName)
+SELECT DISTINCT jt.tag
+FROM StoreJSON,
+JSON_TABLE(JSONdata, '$.types[*]' COLUMNS (tag VARCHAR(50) PATH '$')) AS jt;
+
+INSERT INTO Store_Tags (StoreID, TagID)
+SELECT StoreJSON.StoreID, Tags.TagID
+FROM StoreJSON,
+    JSON_TABLE(JSONdata, '$.types[*]' COLUMNS (tag VARCHAR(50) PATH '$')) AS jt
+JOIN Tags ON jt.tag = Tags.TagName;
+
+
+
+
+-- Get a list of all the stores in ID order with each tag they have
+SELECT S.StoreName AS Store, T.TagName AS Tag
+FROM Stores S
+JOIN Store_Tags ST ON S.StoreID = ST.StoreID
+JOIN Tags T ON T.TagID = ST.TagID
+ORDER BY S.StoreID;
 
 -- Create Users
-CREATE ROLE 'app_developer', 'app_read', 'app_write';
-GRANT ALL ON ProjectR.* TO 'app_developer';
-GRANT SELECT ON ProjectR.* TO 'app_read';
-GRANT INSERT, UPDATE, DELETE ON ProjectR.* TO 'app_write';
+CREATE ROLE 'app_developer',
+            'app_read',
+            'app_write';
+GRANT ALL
+    ON ProjectR.* TO 'app_developer';
+GRANT SELECT
+    ON ProjectR.* TO 'app_read';
+GRANT INSERT,
+      UPDATE,
+      DELETE
+    ON ProjectR.* TO 'app_write';
 
 CREATE USER
-    'nathanki'@'localhost' IDENTIFIED WITH caching_sha2_password
+    'nathanki' IDENTIFIED WITH caching_sha2_password
             BY '12345678',
-    'saikarum'@'localhost' IDENTIFIED WITH caching_sha2_password
+    'saikarum' IDENTIFIED WITH caching_sha2_password
             BY '12345678',
-    'sarahmel'@'localhost' IDENTIFIED WITH caching_sha2_password
+    'sarahmel' IDENTIFIED WITH caching_sha2_password
             BY '12345678'
     PASSWORD EXPIRE INTERVAL 60 DAY
     PASSWORD EXPIRE
     PASSWORD HISTORY 1
     FAILED_LOGIN_ATTEMPTS 3 PASSWORD_LOCK_TIME 1;
 
-GRANT 'app_developer' TO 'nathanki'@'localhost', 'saikarum'@'localhost', 'sarahmel'@'localhost';
+GRANT 'app_developer' TO 'nathanki', 'saikarum', 'sarahmel';
+SET DEFAULT ROLE 'app_developer' TO 'nathanki', 'saikarum', 'sarahmel';
 
 -- Before people can start typing commands, they'll need to use the following command to change their password
-ALTER USER 'nathanki'@'localhost' IDENTIFIED BY 'new_password';
+-- ALTER USER 'nathanki' IDENTIFIED BY 'new_password';
 
 
 
 -- Test code
-CREATE DATABASE test;
-USE test;
-CREATE TABLE jsontest (
-    id INT(11) PRIMARY KEY auto_increment,
-    first VARCHAR(10),
-    last VARCHAR(10),
-    age INT(3),
-    money FLOAT(12,2),
-    jsondata JSON
-);
+-- CREATE DATABASE test;
+-- USE test;
+-- CREATE TABLE jsontest (
+--     id INT(11) PRIMARY KEY auto_increment,
+--     first VARCHAR(10),
+--     last VARCHAR(10),
+--     age INT(3),
+--     money FLOAT(12,2),
+--     jsondata JSON
+-- );
 
-LOAD DATA LOCAL infile '/home/nathan/test.json' INTO TABLE jsontest(jsondata);
-UPDATE jsontest SET
-    first=(jsondata->>'$.fname'),
-    last=(jsondata->>'$.lname'),
-    age=(jsondata->>'$.age'),
-    money=(jsondata->>'$.money');
+-- LOAD DATA LOCAL infile '/home/nathan/test.json' INTO TABLE jsontest(jsondata);
+-- UPDATE jsontest SET
+--     first=(jsondata->>'$.fname'),
+--     last=(jsondata->>'$.lname'),
+--     age=(jsondata->>'$.age'),
+--     money=(jsondata->>'$.money');
 
 
+-- CREATE USER
+--     'nathan'@'localhost' IDENTIFIED WITH caching_sha2_password
+--             BY 'mdNUgL2a6GMxc9n'
+--     PASSWORD EXPIRE INTERVAL 60 DAY
+--     PASSWORD EXPIRE
+--     PASSWORD HISTORY 1
+--     FAILED_LOGIN_ATTEMPTS 3 PASSWORD_LOCK_TIME 1;
 
-CREATE USER
-    'nathan'@'localhost' IDENTIFIED WITH caching_sha2_password
-            BY 'mdNUgL2a6GMxc9n'
-    PASSWORD EXPIRE INTERVAL 60 DAY
-    PASSWORD EXPIRE
-    PASSWORD HISTORY 1
-    FAILED_LOGIN_ATTEMPTS 3 PASSWORD_LOCK_TIME 1;
+    
+-- DROP USER 'nathanki', 'saikarum', 'sarahmel';
+-- DROP ROLE 'app_developer', 'app_read', 'app_write';
+
+SELECT * FROM StoreJSON WHERE JSON_UNQUOTE(JSON_EXTRACT(JSONdata, '$.types[*]')) = '["restaurant", "food", "point_of_interest", "establishment"]';
