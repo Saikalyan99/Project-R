@@ -1,30 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="scripts.js"></script>
-    <title>Project R</title>
-</head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <script src="scripts.js"></script>
+        <title>Project R</title>
+    </head>
 
-<body>
+    <body>
 
-    <h1>Project R</h1>
+        <h1>Project R</h1>
 
-    <p>We can insert details about Project R here when we have a more to work with!</p>
-    <p></p>
+        <button type="button" id="darkmode" onclick="darkMode()">Dark Mode/Light Mode</button>
+
+        <p>We can insert details about Project R here when we have a more to work with!</p>
+        <p></p>
 
 
 
-    <div id="box-one">
-        <p>We can put details here</p>
-    </div>
+        <div id="box-one">
+            <p>We can put details here</p>
+        </div>
 
-    <p></p>
+        <p></p>
 
-    <div id="box-two">
-        <p>We can put additional details here</p>
-    </div>
-</body>
+        <div id="box-two">
+            <p>We can put additional details here</p>
+        </div>
+        
+
+        <!-- This is the code for database management -->
+        <script>
+            // NOTE: RUN WITH HTTP://, NOT FILE://
+            window.addEventListener("load", () => {
+            fetch("1b-database.php", { method: "POST" })
+            .then(res => res.text())
+            .then(txt => document.getElementById("demo").innerHTML = txt);
+            });
+        </script>
+
+        <script>
+            // (A) DATA OBJECT
+            var user = {name : "Jon Doe", email : "jon@doe.com"};
+
+            // (B) STORE IN LOCAL STORAGE
+            // note: json encode
+            localStorage.setItem("User", JSON.stringify(user));
+
+            // (C) RETRIEVE
+            // note: json decode
+            user = localStorage.getItem("User");
+            user = JSON.parse(user);
+            console.log(user);
+        </script>
+
+    </body>
 
 </html>
