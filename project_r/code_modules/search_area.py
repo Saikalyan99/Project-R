@@ -55,51 +55,51 @@ class SearchArea:
         return results
     
     def find_restaurants(self, latitude, longitude, search_radius):
-    """
-    Fetch restaurants from Google Places API within a specified radius.
-    Also includes Plus Code search capability and distance calculation.
-    """
-    url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
-    params = {
-        'location': f"{latitude},{longitude}",
-        'radius': search_radius,
-        'type': 'restaurant',
-        'key': self.api_key
-    }
-    
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        data = response.json()
-        results = data.get('results', [])
+        """
+        Fetch restaurants from Google Places API within a specified radius.
+        Also includes Plus Code search capability and distance calculation.
+        """
+        url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
+        params = {
+            'location': f"{latitude},{longitude}",
+            'radius': search_radius,
+            'type': 'restaurant',
+            'key': self.api_key
+        }
         
-        # Extract necessary fields and add to the main restaurants list
-        filtered_restaurants = []
-        for place in results:
-            place_lat = place['geometry']['location']['lat']
-            place_lng = place['geometry']['location']['lng']
+        response = requests.get(url, params=params)
+        if response.status_code == 200:
+            data = response.json()
+            results = data.get('results', [])
             
-            # Calculate distance from search center and round to 2 decimal places
-            distance = self.haversine_distance(self.latitude, self.longitude, place_lat, place_lng)
-            distance = round(distance, 2)
+            # Extract necessary fields and add to the main restaurants list
+            filtered_restaurants = []
+            for place in results:
+                place_lat = place['geometry']['location']['lat']
+                place_lng = place['geometry']['location']['lng']
+                
+                # Calculate distance from search center and round to 2 decimal places
+                distance = self.haversine_distance(self.latitude, self.longitude, place_lat, place_lng)
+                distance = round(distance, 2)
+                
+                restaurant_data = {
+                    'name': place.get('name'),
+                    'business_status': place.get('business_status'),
+                    'address': place.get('vicinity'),
+                    'types': place.get('types'),
+                    'price_level': place.get('price_level'),
+                    'rating': place.get('rating'),
+                    #'latitude': place_lat,
+                    #'longitude': place_lng,  
+                    'plus_code': place.get('plus_code', {}).get('global_code'),  # Retrieve Plus Code if available
+                    'distance': round(distance, 2)  # Add rounded distance to the data
+                }
+                filtered_restaurants.append(restaurant_data)
             
-            restaurant_data = {
-                'name': place.get('name'),
-                'business_status': place.get('business_status'),
-                'address': place.get('vicinity'),
-                'types': place.get('types'),
-                'price_level': place.get('price_level'),
-                'rating': place.get('rating'),
-                #'latitude': place_lat,
-                #'longitude': place_lng,  
-                'plus_code': place.get('plus_code', {}).get('global_code'),  # Retrieve Plus Code if available
-                'distance': round(distance, 2)  # Add rounded distance to the data
-            }
-            filtered_restaurants.append(restaurant_data)
-        
-        # Store the filtered results in the main restaurants list
-        self.restaurants.extend(filtered_restaurants)
-        return filtered_restaurants
-    return []
+            # Store the filtered results in the main restaurants list
+            self.restaurants.extend(filtered_restaurants)
+            return filtered_restaurants
+        return []
   
     def haversine_distance(self, lat1, lon1, lat2, lon2):
         """
