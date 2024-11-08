@@ -8,17 +8,29 @@ class RestaurantSearchApp:
         self.latitude = None
         self.longitude = None
         self.search_radius = None
-        self.validator = CoordinateValidator("8826c191c0msh5595428de25ba9ap1c69acjsnf442cc8cc26d")  # Might put this key in txt file later!
+        self.validate_key = self.load_validate_key()
+        self.validator = CoordinateValidator(self.validate_key)
 
     def load_api_key(self):
         """
-        Load the Google API key from the main folder.
+        Load the Google API key from the config folder.
         """
         try:
-            with open('GoogleApi_Key.txt', 'r') as file:
+            with open("config/GoogleApi_Key.txt", 'r') as file:
                 return file.read().strip()
         except FileNotFoundError:
             print("Please ensure the GoogleApi_Key.txt file is present. Properly!")
+            return None
+
+    def CoordinateValidator(self):
+        """
+        Load the IsItWater API key from the config folder.
+        """
+        try:
+            with open("config/IsItWater_Key.txt", 'r') as file:
+                return file.read().strip()
+        except FileNotFoundError:
+            print("Please ensure the IsItWater_Key.txt file is present. Properly!")
             return None
 
     def get_user_input(self):
@@ -58,13 +70,13 @@ class RestaurantSearchApp:
         if not self.validate_location():    # Validate coordinates
             return
 
-        # Proceed with the search if validation passes
-        # search_area = SearchArea(self.api_key, self.latitude, self.longitude, self.search_radius)
-        # results = search_area.get_restaurants()
+        # Initialize and start hexagonal search
+        search_area = SearchArea(self.api_key, self.latitude, self.longitude, self.search_radius)
+        results = search_area.grid_initiator()  # Get results directly
 
-        # # Save results if found
-        # if results:
-        #     self.save_results_to_json(results)
+        # Save results if found
+        if results:
+            self.save_results_to_json(results)
 
 def main():
     app = RestaurantSearchApp()
