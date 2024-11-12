@@ -1,15 +1,14 @@
-import json
 from code_modules.search_area import SearchArea
 from code_modules.validation import CoordinateValidator
 
 class RestaurantSearchApp:
     def __init__(self):
         self.api_key = self.load_api_key()
-        self.latitude = None
-        self.longitude = None
-        self.search_radius = None
         self.validate_key = self.load_validate_key()
         self.validator = CoordinateValidator(self.validate_key)
+        self.latitude = None
+        self.longitude = None
+        self.search_radius = None 
 
     def load_api_key(self):
         """
@@ -22,7 +21,7 @@ class RestaurantSearchApp:
             print("Please ensure the GoogleApi_Key.txt file is present. Properly!")
             return None
 
-    def CoordinateValidator(self):
+    def load_validate_key(self):
         """
         Load the IsItWater API key from the config folder.
         """
