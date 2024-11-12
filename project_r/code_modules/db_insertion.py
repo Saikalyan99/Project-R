@@ -61,3 +61,9 @@ class DbDataProcessor:
                 seen.add(identifier)
 
         return unique_data                              # This is the final Result @Nathan
+
+    def data_into_db_insert(self, data):
+        pass
+
+    def data_from_db_retrieve(self):
+        pass
