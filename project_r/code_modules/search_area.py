@@ -2,6 +2,7 @@ import json
 import math
 import time
 import requests
+from code_modules.db_insertion import DbDataProcessor
 
 class SearchArea:
     def __init__(self, api_key, latitude, longitude, radius):
@@ -17,17 +18,20 @@ class SearchArea:
         self.coordinates_list_old = []
         self.coordinates_list = []
         self.restaurants = []     # Store found restaurant data
+        
+        # Correct instantiation of DbDataProcessor with request_type included
+        self.data_dump = DbDataProcessor(latitude, longitude, self.haversine_distance, request_type="API")
 
     def grid_initiator(self):
         """Initiates the grid search process starting with the center hexagon."""
         if self.radius < self.min_radius:
             self.min_radius = self.radius
-            print("Start\n", [restaurant['name'] for restaurant in self.restaurants])
             self.restaurants.extend(self.grid_process_n_check(self.latitude, self.longitude, self.min_radius * 1.1, 0))
-            print("end:\n", [restaurant['name'] for restaurant in self.restaurants])
         else:
             # Start the search and expansion process with min_radius
             self.restaurants = self.grid_calculator(self.latitude, self.longitude, self.min_radius)
+
+        self.restaurants = self.data_dump.data_deduplicator(self.restaurants)
 
         return self.restaurants  # Return the aggregated results as a list
 
@@ -83,9 +87,10 @@ class SearchArea:
     def grid_process_n_check(self, center_x, center_y, radius, depth):
         """Process and check if internal divide is needed based on restaurant count."""
         total_restaurants = self.find_restaurants(center_x, center_y, radius)
-        
+        print("API called, number of restaurants in (", center_x, center_y, ", radius =", radius, ") =", len(total_restaurants))
         # If restaurant count exceeds the threshold, proceed to internal division
         if len(total_restaurants) > 59:
+            print("\nGone for internal divsion")
             total_restaurants.extend(self.internal_divide(center_x, center_y, radius, depth + 1))
         
         return total_restaurants  # Return results for the current hexagon
@@ -124,7 +129,6 @@ class SearchArea:
 
         for _ in range(3):  # Loop to handle pagination up to 3 pages
             response = requests.get(url, params=params)
-            print("\nAPI called")
 
             if response.status_code == 200:
                 data = response.json()
@@ -145,35 +149,8 @@ class SearchArea:
             else:
                 break                                           # Break on API call failure
 
-        
-        # Save the entire raw data for debugging if needed
-        with open("api_response_debug.json", "w") as f:
-            json.dump(all_pages, f, indent=4)
-
-        # Deduplicate and filter results after collecting all pages
-        seen = set()
-        unique_restaurants = []
-        for place in all_pages:
-            name = place.get('name')
-            plus_code = place.get('plus_code', {}).get('global_code', None)
-            identifier = (name, plus_code)
-
-            if identifier not in seen:
-                restaurant_data = {
-                    'name': name,
-                    'business_status': place.get('business_status'),
-                    'address': place.get('vicinity'),
-                    'types': place.get('types'),
-                    'price_level': place.get('price_level'),
-                    'rating': place.get('rating'),
-                    'user_ratings_total': place.get('user_ratings_total', 0),
-                    #'latitude': place_lat,
-                    #'longitude': place_lng,
-                    'plus_code': plus_code,
-                    'distance': round(self.haversine_distance(latitude, longitude, place['geometry']['location']['lat'], place['geometry']['location']['lng']), 2)
-                }
-                unique_restaurants.append(restaurant_data)
-                seen.add(identifier)
+        # Process the collected data to deduplicate and filter restaurants
+        unique_restaurants = self.data_dump.filter_restaurants_api(all_pages)
 
         # Store unique results in the main restaurants list
         self.restaurants.extend(unique_restaurants)

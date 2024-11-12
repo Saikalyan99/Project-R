@@ -1,5 +1,6 @@
 from code_modules.search_area import SearchArea
 from code_modules.validation import CoordinateValidator
+import json
 
 class RestaurantSearchApp:
     def __init__(self):
