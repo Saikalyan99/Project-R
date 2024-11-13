@@ -13,7 +13,7 @@ class SearchArea:
         
         # Hexagonal search parameters
         self.max_radius = 243000                                                                    # Max starting radius in meters
-        self.min_radius = 27000                                                                     # Initial radius for each hexagon in meters
+        self.min_radius = 81000                                                                     # Initial radius for each hexagon in meters
         self.stage = 1                                                                              # Track stages in hexagonal expansion
         self.coordinates_list_old = []                                                              # Stores previous stage coordinates 
         self.coordinates_list = []                                                                  # Store current stage coordinates
@@ -26,88 +26,83 @@ class SearchArea:
         """Initiates the grid search process starting with the center hexagon."""
         if self.radius < self.min_radius:
             self.min_radius = self.radius
-            self.restaurants.extend(self.grid_process_n_check(self.latitude, self.longitude, self.min_radius * 1.1, 0))
+            self.grid_process_n_check(self.latitude, self.longitude, self.min_radius * 1.1, 0)
         else:
             # Start the search and expansion process with min_radius
-            self.restaurants = self.grid_calculator(self.latitude, self.longitude, self.min_radius)
+            self.grid_calculator(self.latitude, self.longitude, self.min_radius)
 
         self.restaurants = self.data_dump.data_deduplicator(self.restaurants)
         return self.restaurants                                                                     # Return the aggregated results as a list
 
     def grid_calculator(self, center_x, center_y, radius):
         """Keeps track of position of the hexagons and manages multi-stage expansion."""
-        results = []
-        results.extend(self.grid_process_n_check(center_x, center_y, radius * 1.1, 0))
+        self.grid_process_n_check(center_x, center_y, radius * 1.1, 0)
         
         # Continue expanding in a loop until a kill condition is added
         condition = True
         while condition:
             for i in range((self.stage * 6) + 1):
                 angle = math.radians(60 * i)                                                        # Angle per hexagon in the current ring
-                new_center_x = center_x + (radius / 111320) * math.cos(angle)
-                new_center_y = center_y + (radius / (111320 * math.cos(math.radians(center_x)))) * math.sin(angle)
+                new_center_x = center_x + (radius * 2 * self.stage) / 111320 * math.cos(angle)
+                new_center_y = center_y + (radius * 2 * self.stage) / (111320 * math.cos(math.radians(center_x))) * math.sin(angle)
                 
                 # Calculate distance to determine whether to continue with internal or external expansion
                 distance_from_origin = self.haversine_distance(self.latitude, self.longitude, new_center_x, new_center_y)
                 self.coordinates_list.append((new_center_x, new_center_y))
                 
-                if distance_from_origin > (self.radius + 1.5 * self.min_radius):
+                if distance_from_origin > (self.radius + 1.5 * self.min_radius) / 1000:
                     condition = False                                                               # Break when the radius exceeded requirement
-                    break
+                    #break
 
                 if i == 0:
-                    temp_x, temp_y = new_center_x, new_center_y
+                    (temp_x, temp_y) = (new_center_x, new_center_y)
 
                 if i == 6:
                     # Move to the next stage after processing all six neighbors
                     self.coordinates_list_old = self.coordinates_list.copy()
                     self.coordinates_list.clear()
                     self.stage += 1
+                    print("Moving to Stage ", self.stage, "Loop", condition, ", distance = ", distance_from_origin, " and ", (self.radius + 1.5 * self.min_radius)/1000)
                     index = 0
                     break
                 else:
                     # Process each hexagon in the current stage
-                    results.extend(self.grid_process_n_check(new_center_x, new_center_y, radius * 1.1, 0))
+                    self.grid_process_n_check(new_center_x, new_center_y, radius * 1.1, 0)
                     if self.stage > 1:
-                        # Generate hexagons in a straight line within the stage
-                        for j in range(self.stage - 1):
+                        for j in range(self.stage - 1):                                 # Generate hexagons in a straight line within the stage
                             new_center_x, new_center_y = self.coordinates_list_old[index]
                             index += 1
                             self.coordinates_list.append(self.move_external_inline(new_center_x, new_center_y, radius * 1.1, 60 + (60 * i)))
-        return results
     
     def move_external_inline(self, new_center_x, new_center_y, radius, angle):
         """Move to the 6 external neighboring hexagons and check them."""
         rad_angle = math.radians(angle)
         neighbor_center_x = new_center_x + (radius / 111320) * math.cos(rad_angle)
         neighbor_center_y = new_center_y + (radius / (111320 * math.cos(math.radians(new_center_x)))) * math.sin(rad_angle)
-        return self.grid_process_n_check(neighbor_center_x, neighbor_center_y, radius * 1.1, 0)
+        self.grid_process_n_check(neighbor_center_x, neighbor_center_y, radius * 1.1, 0)
+        return (neighbor_center_x, neighbor_center_y)
     
     def grid_process_n_check(self, center_x, center_y, radius, depth):
         """Process and check if internal divide is needed based on restaurant count."""
-        total_restaurants = self.find_restaurants(center_x, center_y, radius)
-        #print("API called, number of restaurants in (", center_x, center_y, ", radius =", radius, ") =", len(total_restaurants))
+        temp_result = self.find_restaurants(center_x, center_y, radius)
+        print("API called, no. of restaurants = ", len(temp_result), " depth = ", depth, " , radius =", radius, " at (", center_x, center_y, ")")
         # If restaurant count exceeds the threshold, proceed to internal division
-        if len(total_restaurants) > 59:
-            total_restaurants.extend(self.internal_divide(center_x, center_y, radius, depth + 1))
-        return total_restaurants                                                                    # Return results for the current hexagon
-            
+        if len(temp_result) > 59:
+            self.internal_divide(center_x, center_y, radius, depth + 1)
+        else:
+            self.restaurants.extend(temp_result)
+
     def internal_divide(self, center_x, center_y, radius, depth):
         """Divide the circle into seven smaller circles and gather results."""
-        results = []
         sub_radius = (radius / 3) + (radius / 10)
+        self.grid_process_n_check(center_x, center_y, sub_radius, depth)           # Gather results for central grid first
         
         for i in range(6):                                                                          # Generate six surrounding hexagon centers
             angle = math.radians(60 * i)
             new_lat = center_x + (sub_radius / 111320) * math.cos(angle)
             new_lon = center_y + (sub_radius / (111320 * math.cos(math.radians(center_x)))) * math.sin(angle)
-            results.extend(self.grid_process_n_check(new_lat, new_lon, sub_radius, depth))
-        
-        # Also gather results for the central point
-        results.extend(self.grid_process_n_check(center_x, center_y, sub_radius, depth))
-        
-        return results
-    
+            self.grid_process_n_check(new_lat, new_lon, sub_radius, depth)
+
     def find_restaurants(self, latitude, longitude, search_radius):
         """
         Fetch restaurants from Google Places API within a specified radius.
@@ -143,7 +138,6 @@ class SearchArea:
                 break                                                                   # Break on API call failure
 
         unique_restaurants = self.data_dump.filter_restaurants_api(all_pages)           # Process the collected data filter restaurants
-        self.restaurants.extend(unique_restaurants)                                     # Store unique results in the main restaurants list
         return unique_restaurants
   
     def haversine_distance(self, lat1, lon1, lat2, lon2):

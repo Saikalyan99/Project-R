@@ -1,39 +1,5 @@
 [
     {
-        "name": "Subway",
-        "business_status": "OPERATIONAL",
-        "address": "246 South Silver Springs Road, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.9,
-        "user_ratings_total": 179,
-        "plus_code": "869G7CXM+CQ",
-        "distance": 2.54
-    },
-    {
-        "name": "Subway",
-        "business_status": "OPERATIONAL",
-        "address": "701 Broadway Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4,
-        "user_ratings_total": 204,
-        "plus_code": "869G8F4F+J7",
-        "distance": 2.12
-    },
-    {
         "name": "Jimmy John's",
         "business_status": "OPERATIONAL",
         "address": "1800 Broadway Street, Cape Girardeau",
@@ -65,181 +31,9 @@
         ],
         "price_level": 1,
         "rating": 4,
-        "user_ratings_total": 776,
+        "user_ratings_total": 777,
         "plus_code": "869G8C6X+F7",
         "distance": 0.69
-    },
-    {
-        "name": "Red Lobster",
-        "business_status": "OPERATIONAL",
-        "address": "3269 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.2,
-        "user_ratings_total": 1493,
-        "plus_code": "869G8C2C+VR",
-        "distance": 3.13
-    },
-    {
-        "name": "Texas Roadhouse",
-        "business_status": "OPERATIONAL",
-        "address": "13 Doctors Park Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 2824,
-        "plus_code": "869G7CXF+F5",
-        "distance": 3.28
-    },
-    {
-        "name": "Starbucks",
-        "business_status": "OPERATIONAL",
-        "address": "188 Vantage Drive, Cape Girardeau",
-        "types": [
-            "cafe",
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4,
-        "user_ratings_total": 996,
-        "plus_code": "869G8C3F+82",
-        "distance": 3.02
-    },
-    {
-        "name": "Olive Garden Italian Restaurant",
-        "business_status": "OPERATIONAL",
-        "address": "3259 William Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.4,
-        "user_ratings_total": 2232,
-        "plus_code": "869G8C2F+R9",
-        "distance": 3.03
-    },
-    {
-        "name": "Logan's Roadhouse",
-        "business_status": "OPERATIONAL",
-        "address": "3012 William Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4,
-        "user_ratings_total": 1519,
-        "plus_code": "869G8C2J+JC",
-        "distance": 2.51
-    },
-    {
-        "name": "China Wok",
-        "business_status": "OPERATIONAL",
-        "address": "1330 Broadway Street STE 102, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.2,
-        "user_ratings_total": 237,
-        "plus_code": "869G8F68+52",
-        "distance": 1.28
-    },
-    {
-        "name": "Taco Bell",
-        "business_status": "OPERATIONAL",
-        "address": "3039 William Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.6,
-        "user_ratings_total": 1070,
-        "plus_code": "869G8C2J+32",
-        "distance": 2.68
-    },
-    {
-        "name": "Sonic Drive-In",
-        "business_status": "OPERATIONAL",
-        "address": "262 Siemers Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.9,
-        "user_ratings_total": 992,
-        "plus_code": "869G7CX9+7Q",
-        "distance": 3.56
-    },
-    {
-        "name": "Penn Station East Coast Subs",
-        "business_status": "OPERATIONAL",
-        "address": "127 Siemers Drive, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 256,
-        "plus_code": "869G8C28+FQ",
-        "distance": 3.58
-    },
-    {
-        "name": "Green's Garden - Urban Market",
-        "business_status": "OPERATIONAL",
-        "address": "2 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "cafe",
-            "store",
-            "health",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.9,
-        "user_ratings_total": 56,
-        "plus_code": "869G8F3J+CJ",
-        "distance": 2.94
     },
     {
         "name": "Dunkin'",
@@ -249,10 +43,10 @@
             "bakery",
             "meal_takeaway",
             "cafe",
-            "store",
             "restaurant",
             "food",
             "point_of_interest",
+            "store",
             "establishment"
         ],
         "price_level": 1,
@@ -262,41 +56,97 @@
         "distance": 1.04
     },
     {
-        "name": "Midori Japanese Cuisine",
+        "name": "Culver\u2019s",
         "business_status": "OPERATIONAL",
-        "address": "2106 William Street #300, Cape Girardeau",
+        "address": "295 North Kingshighway Street, Cape Girardeau",
         "types": [
             "restaurant",
             "food",
             "point_of_interest",
+            "store",
             "establishment"
         ],
-        "price_level": 2,
-        "rating": 4.5,
-        "user_ratings_total": 610,
-        "plus_code": "869G8F32+FV",
-        "distance": 1.41
+        "price_level": 1,
+        "rating": 4.4,
+        "user_ratings_total": 1471,
+        "plus_code": "869G8C6W+5W",
+        "distance": 0.81
     },
     {
-        "name": "Panda Express",
+        "name": "China Palace",
         "business_status": "OPERATIONAL",
-        "address": "University Center, One University Plaza, Mail Stop 1700, Room 219, Cape Girardeau",
+        "address": "2123 Broadway Street, Cape Girardeau",
         "types": [
+            "meal_delivery",
             "restaurant",
             "food",
             "point_of_interest",
             "establishment"
         ],
         "price_level": 1,
-        "rating": 2.9,
-        "user_ratings_total": 16,
-        "plus_code": "869G8F69+H4",
-        "distance": 1.45
+        "rating": 4.2,
+        "user_ratings_total": 471,
+        "plus_code": "869G8F72+2J",
+        "distance": 0.44
     },
     {
-        "name": "Watami Sushi & Hibachi Steakhouse (Cape Girardeau)",
+        "name": "Imo's Pizza",
         "business_status": "OPERATIONAL",
-        "address": "45 South Kingshighway, Cape Girardeau",
+        "address": "1008 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "user_ratings_total": 477,
+        "plus_code": "869G8CCV+93",
+        "distance": 1.01
+    },
+    {
+        "name": "McDonald's",
+        "business_status": "OPERATIONAL",
+        "address": "1925 Broadway Street, Cape Girardeau",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.4,
+        "user_ratings_total": 1886,
+        "plus_code": "869G8F73+2M",
+        "distance": 0.45
+    },
+    {
+        "name": "Andy's Frozen Custard",
+        "business_status": "OPERATIONAL",
+        "address": "809 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.7,
+        "user_ratings_total": 1005,
+        "plus_code": "869G8C8W+J6",
+        "distance": 0.62
+    },
+    {
+        "name": "Taco Bell",
+        "business_status": "OPERATIONAL",
+        "address": "335 North Kingshighway Street, Cape Girardeau",
         "types": [
             "meal_takeaway",
             "restaurant",
@@ -304,11 +154,224 @@
             "point_of_interest",
             "establishment"
         ],
+        "price_level": 1,
+        "rating": 3.8,
+        "user_ratings_total": 1125,
+        "plus_code": "869G8C6W+PV",
+        "distance": 0.69
+    },
+    {
+        "name": "Burger King",
+        "business_status": "OPERATIONAL",
+        "address": "2346 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.6,
+        "user_ratings_total": 926,
+        "plus_code": "869G8C7X+C8",
+        "distance": 0.49
+    },
+    {
+        "name": "Huddle House",
+        "business_status": "OPERATIONAL",
+        "address": "511 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.8,
+        "user_ratings_total": 1637,
+        "plus_code": "869G8C7W+9Q",
+        "distance": 0.59
+    },
+    {
+        "name": "Ty's Summer Sno",
+        "business_status": "OPERATIONAL",
+        "address": "159200010001000000, 2201 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.8,
+        "user_ratings_total": 71,
+        "plus_code": "869G8F72+4F",
+        "distance": 0.41
+    },
+    {
+        "name": "Abelardo\u2019s Mexican Fresh",
+        "business_status": "OPERATIONAL",
+        "address": "1740 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.4,
+        "user_ratings_total": 292,
+        "plus_code": "869G8F75+5C",
+        "distance": 0.65
+    },
+    {
+        "name": "Krabby Daddy's Cape Girardeau",
+        "business_status": "OPERATIONAL",
+        "address": "841 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "user_ratings_total": 320,
+        "plus_code": "869G8C8W+Q2",
+        "distance": 0.67
+    },
+    {
+        "name": "Hunt Brothers Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "920 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8C9V+GR",
+        "distance": 0.76
+    },
+    {
+        "name": "Taco John's",
+        "business_status": "OPERATIONAL",
+        "address": "111 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "user_ratings_total": 782,
+        "plus_code": "869G8C5X+C3",
+        "distance": 0.97
+    },
+    {
+        "name": "Arby's",
+        "business_status": "OPERATIONAL",
+        "address": "2134 Independence Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "user_ratings_total": 836,
+        "plus_code": "869G8C4X+VM",
+        "distance": 1.07
+    },
+    {
+        "name": "La Luna Mexican Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": "97 North Kingshighway Street Ste 10, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
         "price_level": 2,
         "rating": 4.5,
-        "user_ratings_total": 768,
-        "plus_code": "869G8C3W+HR",
-        "distance": 1.47
+        "user_ratings_total": 475,
+        "plus_code": "869G8C5X+33",
+        "distance": 1.06
+    },
+    {
+        "name": "Smoothie King",
+        "business_status": "OPERATIONAL",
+        "address": "97 North Kingshighway Street Ste. 13, Cape Girardeau",
+        "types": [
+            "meal_delivery",
+            "health",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "user_ratings_total": 202,
+        "plus_code": "869G8C5X+33",
+        "distance": 1.06
+    },
+    {
+        "name": "Fry Guys",
+        "business_status": "OPERATIONAL",
+        "address": "1929 Independence Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 5,
+        "user_ratings_total": 4,
+        "plus_code": "869G8F43+C2",
+        "distance": 1.14
+    },
+    {
+        "name": "Muy Bueno Mexican Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": "1751 Independence Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.5,
+        "user_ratings_total": 703,
+        "plus_code": "869G8F43+9X",
+        "distance": 1.18
+    },
+    {
+        "name": "Hunt Brothers Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "1803 Independence Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8F43+8M",
+        "distance": 1.18
     },
     {
         "name": "Subway",
@@ -328,6 +391,175 @@
         "distance": 1.47
     },
     {
+        "name": "Domino's Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "1028 North Sprigg Street, Cape Girardeau",
+        "types": [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "user_ratings_total": 300,
+        "plus_code": "869G8F9G+34",
+        "distance": 2.01
+    },
+    {
+        "name": "Panda Express",
+        "business_status": "OPERATIONAL",
+        "address": "University Center, One University Plaza, Mail Stop 1700, Room 219, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 2.9,
+        "user_ratings_total": 16,
+        "plus_code": "869G8F69+H4",
+        "distance": 1.45
+    },
+    {
+        "name": "Parker Hall",
+        "business_status": "OPERATIONAL",
+        "address": "940 Parker Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.4,
+        "user_ratings_total": 10,
+        "plus_code": "869G8F79+WC",
+        "distance": 1.43
+    },
+    {
+        "name": "Chick-fil-A",
+        "business_status": "OPERATIONAL",
+        "address": "1 University Plaza, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.1,
+        "user_ratings_total": 79,
+        "plus_code": "869G8F79+3H",
+        "distance": 1.51
+    },
+    {
+        "name": "Rhodes Convenience Store",
+        "business_status": "OPERATIONAL",
+        "address": "1126 North Sprigg Street, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.2,
+        "user_ratings_total": 53,
+        "plus_code": "869G8F9G+H7",
+        "distance": 2.06
+    },
+    {
+        "name": "Rowdy's",
+        "business_status": "OPERATIONAL",
+        "address": "United States",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 3.6,
+        "user_ratings_total": 24,
+        "plus_code": "869G8F7C+VR",
+        "distance": 1.73
+    },
+    {
+        "name": "Rally's",
+        "business_status": "OPERATIONAL",
+        "address": "1134 North Sprigg Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "user_ratings_total": 279,
+        "plus_code": "869G8F9G+Q6",
+        "distance": 2.07
+    },
+    {
+        "name": "Little Kitchen",
+        "business_status": "OPERATIONAL",
+        "address": "1036 North Sprigg Street, Cape Girardeau",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "user_ratings_total": 186,
+        "plus_code": "869G8F9G+66",
+        "distance": 2.04
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": "701 Broadway Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "user_ratings_total": 204,
+        "plus_code": "869G8F4F+J7",
+        "distance": 2.12
+    },
+    {
+        "name": "China Wok",
+        "business_status": "OPERATIONAL",
+        "address": "1330 Broadway Street STE 102, Cape Girardeau",
+        "types": [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "user_ratings_total": 237,
+        "plus_code": "869G8F68+52",
+        "distance": 1.28
+    },
+    {
         "name": "Redhawks Market",
         "business_status": "OPERATIONAL",
         "address": "Chartwells Dining & Catering, University Plaza, Cape Girardeau",
@@ -342,22 +574,6 @@
         "user_ratings_total": 13,
         "plus_code": "869G8F69+G5",
         "distance": 1.47
-    },
-    {
-        "name": "IHOP",
-        "business_status": "OPERATIONAL",
-        "address": "2406 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.7,
-        "user_ratings_total": 1633,
-        "plus_code": "869G8C3W+J6",
-        "distance": 1.5
     },
     {
         "name": "El Mezcal Mexican Grill",
@@ -375,6 +591,270 @@
         "user_ratings_total": 664,
         "plus_code": "869G8F59+74",
         "distance": 1.62
+    },
+    {
+        "name": "Pagliai's Pizza & Pasta(Cape Girardeau)",
+        "business_status": "OPERATIONAL",
+        "address": "1129 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.6,
+        "user_ratings_total": 641,
+        "plus_code": "869G8F58+FV",
+        "distance": 1.54
+    },
+    {
+        "name": "Celebrations Restaurant & Bar",
+        "business_status": "OPERATIONAL",
+        "address": "615 Bellevue Street, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.6,
+        "user_ratings_total": 131,
+        "plus_code": "869G8F5F+5Q",
+        "distance": 2.15
+    },
+    {
+        "name": "Burrito-Ville",
+        "business_status": "OPERATIONAL",
+        "address": "913 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.6,
+        "user_ratings_total": 1623,
+        "plus_code": "869G8F49+MW",
+        "distance": 1.86
+    },
+    {
+        "name": "Mary Jane bourbon + smokehouse",
+        "business_status": "OPERATIONAL",
+        "address": "1107 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "user_ratings_total": 1050,
+        "plus_code": "869G8F59+82",
+        "distance": 1.59
+    },
+    {
+        "name": "Trio Restaurant Cape Girardeau, MO",
+        "business_status": "OPERATIONAL",
+        "address": "1027 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.8,
+        "user_ratings_total": 209,
+        "plus_code": "869G8F59+66",
+        "distance": 1.66
+    },
+    {
+        "name": "Midtown",
+        "business_status": "OPERATIONAL",
+        "address": "1444 Independence Street, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.4,
+        "user_ratings_total": 100,
+        "plus_code": "869G8F46+7P",
+        "distance": 1.43
+    },
+    {
+        "name": "Rhodes Convenience Store",
+        "business_status": "OPERATIONAL",
+        "address": "10 South West End Boulevard, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "restaurant",
+            "food",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.5,
+        "user_ratings_total": 39,
+        "plus_code": "869G8F37+WM",
+        "distance": 1.64
+    },
+    {
+        "name": "Rice Noodle Cai",
+        "business_status": "OPERATIONAL",
+        "address": "1017 Independence Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.7,
+        "user_ratings_total": 300,
+        "plus_code": "869G8F39+R3",
+        "distance": 1.87
+    },
+    {
+        "name": "Broadway Bistro and Vintage Trade",
+        "business_status": "OPERATIONAL",
+        "address": "811 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.8,
+        "user_ratings_total": 33,
+        "plus_code": "869G8F4C+MG",
+        "distance": 1.98
+    },
+    {
+        "name": "Hungry Bones",
+        "business_status": "OPERATIONAL",
+        "address": "731 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.6,
+        "user_ratings_total": 25,
+        "plus_code": "869G8F4C+MV",
+        "distance": 2.04
+    },
+    {
+        "name": "Rufus Red Hots",
+        "business_status": "CLOSED_TEMPORARILY",
+        "address": "600 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.7,
+        "user_ratings_total": 73,
+        "plus_code": "869G8F4F+PV",
+        "distance": 2.23
+    },
+    {
+        "name": "F\u016bdio",
+        "business_status": "OPERATIONAL",
+        "address": "605 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 5,
+        "user_ratings_total": 5,
+        "plus_code": "869G8F4F+HR",
+        "distance": 2.23
+    },
+    {
+        "name": "Papa Johns Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "820 North Sprigg Street Ste 2, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.1,
+        "user_ratings_total": 139,
+        "plus_code": "869G8F8G+43",
+        "distance": 2.0
+    },
+    {
+        "name": "Midori Japanese Cuisine",
+        "business_status": "OPERATIONAL",
+        "address": "2106 William Street #300, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "user_ratings_total": 610,
+        "plus_code": "869G8F32+FV",
+        "distance": 1.41
+    },
+    {
+        "name": "Watami Sushi & Hibachi Steakhouse (Cape Girardeau)",
+        "business_status": "OPERATIONAL",
+        "address": "45 South Kingshighway, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "user_ratings_total": 768,
+        "plus_code": "869G8C3W+HR",
+        "distance": 1.47
+    },
+    {
+        "name": "IHOP",
+        "business_status": "OPERATIONAL",
+        "address": "2406 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.7,
+        "user_ratings_total": 1633,
+        "plus_code": "869G8C3W+J6",
+        "distance": 1.5
     },
     {
         "name": "Applebee's Grill + Bar",
@@ -400,10 +880,10 @@
         "types": [
             "bakery",
             "cafe",
-            "store",
             "restaurant",
             "food",
             "point_of_interest",
+            "store",
             "establishment"
         ],
         "price_level": 2,
@@ -411,6 +891,611 @@
         "user_ratings_total": 697,
         "plus_code": "869G8C2V+M8",
         "distance": 1.83
+    },
+    {
+        "name": "Hucks",
+        "business_status": "OPERATIONAL",
+        "address": "353 South Kingshighway, Cape Girardeau",
+        "types": [
+            "gas_station",
+            "convenience_store",
+            "atm",
+            "liquor_store",
+            "finance",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 3.9,
+        "user_ratings_total": 483,
+        "plus_code": "869G7CXW+G9",
+        "distance": 2.04
+    },
+    {
+        "name": "KFC",
+        "business_status": "OPERATIONAL",
+        "address": "2101 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4,
+        "user_ratings_total": 791,
+        "plus_code": "869G8F33+29",
+        "distance": 1.54
+    },
+    {
+        "name": "Hardee\u2019s",
+        "business_status": "OPERATIONAL",
+        "address": "2115 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.7,
+        "user_ratings_total": 885,
+        "plus_code": "869G8F32+37",
+        "distance": 1.53
+    },
+    {
+        "name": "BG's Deli",
+        "business_status": "OPERATIONAL",
+        "address": "205 South Plaza Way, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.1,
+        "user_ratings_total": 639,
+        "plus_code": "869G8C3X+5X",
+        "distance": 1.51
+    },
+    {
+        "name": "El Torero Mexican Grill",
+        "business_status": "OPERATIONAL",
+        "address": "2120 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "meal_takeaway",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.3,
+        "user_ratings_total": 1131,
+        "plus_code": "869G8F32+C3",
+        "distance": 1.44
+    },
+    {
+        "name": "Grecian Steak House",
+        "business_status": "OPERATIONAL",
+        "address": "2013 Independence Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.3,
+        "user_ratings_total": 597,
+        "plus_code": "869G8F42+6M",
+        "distance": 1.2
+    },
+    {
+        "name": "Fazoli's",
+        "business_status": "OPERATIONAL",
+        "address": "5 South Kingshighway, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.1,
+        "user_ratings_total": 647,
+        "plus_code": "869G8C4X+F3",
+        "distance": 1.22
+    },
+    {
+        "name": "Dexter Bar-B-Que",
+        "business_status": "OPERATIONAL",
+        "address": "236 South Broadview Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 567,
+        "plus_code": "869G8C2V+PH",
+        "distance": 1.78
+    },
+    {
+        "name": "Wendy's",
+        "business_status": "OPERATIONAL",
+        "address": "35 South Kingshighway, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.8,
+        "user_ratings_total": 1215,
+        "plus_code": "869G8C3W+MV",
+        "distance": 1.43
+    },
+    {
+        "name": "Dairy Queen Grill & Chill",
+        "business_status": "OPERATIONAL",
+        "address": "31 South Kingshighway, Cape Girardeau",
+        "types": [
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.8,
+        "user_ratings_total": 471,
+        "plus_code": "869G8C3W+MG",
+        "distance": 1.46
+    },
+    {
+        "name": "China Crown buffet",
+        "business_status": "OPERATIONAL",
+        "address": "329 South Kingshighway, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.3,
+        "user_ratings_total": 650,
+        "plus_code": "869G8C2W+39",
+        "distance": 1.89
+    },
+    {
+        "name": "Dogwood Social House Cape Girardeau",
+        "business_status": "OPERATIONAL",
+        "address": "80 South Plaza Way, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "bowling_alley",
+            "bar",
+            "meal_takeaway",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 1326,
+        "plus_code": "869G8F33+W4",
+        "distance": 1.29
+    },
+    {
+        "name": "Good Time Daiquiris",
+        "business_status": "OPERATIONAL",
+        "address": "2136 William Street #125, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.9,
+        "user_ratings_total": 59,
+        "plus_code": "869G8F32+Q8",
+        "distance": 1.33
+    },
+    {
+        "name": "Rosati's Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "2136 William Street Suite 120, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 725,
+        "plus_code": "869G8F32+R2",
+        "distance": 1.33
+    },
+    {
+        "name": "Krispy Kreme",
+        "business_status": "OPERATIONAL",
+        "address": "2122 William Street, Cape Girardeau",
+        "types": [
+            "bakery",
+            "cafe",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "user_ratings_total": 561,
+        "plus_code": "869G8F32+97",
+        "distance": 1.44
+    },
+    {
+        "name": "Spawn Area BG's",
+        "business_status": "CLOSED_TEMPORARILY",
+        "address": "205 South Plaza Way, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4,
+        "user_ratings_total": 5,
+        "plus_code": "869G8C3X+5X",
+        "distance": 1.51
+    },
+    {
+        "name": "Rhodes Convenience Store",
+        "business_status": "OPERATIONAL",
+        "address": "2146 William Street, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.1,
+        "user_ratings_total": 126,
+        "plus_code": "869G8C3X+FJ",
+        "distance": 1.44
+    },
+    {
+        "name": "Picadeli",
+        "business_status": "OPERATIONAL",
+        "address": "19 South Kingshighway, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8C4W+39",
+        "distance": 1.37
+    },
+    {
+        "name": "Captain D's",
+        "business_status": "OPERATIONAL",
+        "address": "205 South Kingshighway, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.7,
+        "user_ratings_total": 256,
+        "plus_code": "869G8C3W+5P",
+        "distance": 1.58
+    },
+    {
+        "name": "TenderFix by Noah Schnapp",
+        "business_status": "OPERATIONAL",
+        "address": "2406 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 3.7,
+        "user_ratings_total": 3,
+        "plus_code": "869G8C3W+J5",
+        "distance": 1.5
+    },
+    {
+        "name": "Hunt Brothers Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "335 Christine Street #103, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8C2X+4C",
+        "distance": 1.82
+    },
+    {
+        "name": "Papa Murphy's | Take 'N' Bake Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "2510 William Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.7,
+        "user_ratings_total": 231,
+        "plus_code": "869G8C3R+PW",
+        "distance": 1.62
+    },
+    {
+        "name": "Cora's Taste of Manila",
+        "business_status": "OPERATIONAL",
+        "address": "2502 Tanner Drive Suite 200, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.9,
+        "user_ratings_total": 60,
+        "plus_code": "869G8C3V+5J",
+        "distance": 1.66
+    },
+    {
+        "name": "Turk Dawgs",
+        "business_status": "OPERATIONAL",
+        "address": "2502 Tanner Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 5,
+        "user_ratings_total": 16,
+        "plus_code": "869G8C3V+6J",
+        "distance": 1.66
+    },
+    {
+        "name": "Citycentre",
+        "business_status": "OPERATIONAL",
+        "address": "201-241, South Broadview Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 5,
+        "user_ratings_total": 1,
+        "plus_code": "869G8C3V+5J",
+        "distance": 1.67
+    },
+    {
+        "name": "Carside To Go",
+        "business_status": "OPERATIONAL",
+        "address": "United States",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8C3V+7C",
+        "distance": 1.67
+    },
+    {
+        "name": "RSTbusinessventures",
+        "business_status": "OPERATIONAL",
+        "address": "2510 William Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8C3R+MW",
+        "distance": 1.63
+    },
+    {
+        "name": "Godfather's Pizza Express",
+        "business_status": "OPERATIONAL",
+        "address": "353 South Kingshighway, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 3.6,
+        "user_ratings_total": 13,
+        "plus_code": "869G7CXW+G8",
+        "distance": 2.04
+    },
+    {
+        "name": "Shogun Japanese Sushi and Hibachi",
+        "business_status": "OPERATIONAL",
+        "address": "161 West Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "meal_takeaway",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 676,
+        "plus_code": "869G8C3R+H8",
+        "distance": 1.73
+    },
+    {
+        "name": "Don Carlos Authentic Mexican Restaurant And Taqueria",
+        "business_status": "OPERATIONAL",
+        "address": "221 South Broadview Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.5,
+        "user_ratings_total": 389,
+        "plus_code": "869G8C2R+VP",
+        "distance": 1.83
+    },
+    {
+        "name": "Panaderia Oaxaque\u00f1a",
+        "business_status": "OPERATIONAL",
+        "address": "527 North Silver Springs Road, Cape Girardeau",
+        "types": [
+            "bakery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.7,
+        "user_ratings_total": 98,
+        "plus_code": "869G8C6M+P7",
+        "distance": 1.79
+    },
+    {
+        "name": "Domino's Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "1410 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.1,
+        "user_ratings_total": 250,
+        "plus_code": "869G8CGP+QW",
+        "distance": 1.79
+    },
+    {
+        "name": "Budget Inn Motel & Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": "1448 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 2.6,
+        "user_ratings_total": 174,
+        "plus_code": "869G8CHP+4M",
+        "distance": 1.89
+    },
+    {
+        "name": "Chan's Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": "1159 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.5,
+        "user_ratings_total": 717,
+        "plus_code": "869G8CFQ+7R",
+        "distance": 1.38
+    },
+    {
+        "name": "Reyes Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": "1434 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.8,
+        "user_ratings_total": 39,
+        "plus_code": "869G8CGP+WP",
+        "distance": 1.85
+    },
+    {
+        "name": "Bistro Saffron",
+        "business_status": "OPERATIONAL",
+        "address": "1610 North Kingshighway Street #101, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "user_ratings_total": 318,
+        "plus_code": "869G8CHM+R9",
+        "distance": 2.24
     },
     {
         "name": "Subway",
@@ -430,6 +1515,142 @@
         "distance": 3.19
     },
     {
+        "name": "Seis Amigos",
+        "business_status": "OPERATIONAL",
+        "address": "1832 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.4,
+        "user_ratings_total": 575,
+        "plus_code": "869G8CMF+XJ",
+        "distance": 3.26
+    },
+    {
+        "name": "Hunt Brothers Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "1320 West Cape Rock Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G8FQ6+QF",
+        "distance": 2.68
+    },
+    {
+        "name": "Cape Jaycee Municipal Golf Course",
+        "business_status": "OPERATIONAL",
+        "address": "3280 Perryville Road, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "park",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.3,
+        "user_ratings_total": 54,
+        "plus_code": "869G9C5Q+7G",
+        "distance": 4.81
+    },
+    {
+        "name": "Rhodes Convenience Store",
+        "business_status": "OPERATIONAL",
+        "address": "1624 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.2,
+        "user_ratings_total": 190,
+        "plus_code": "869G8CJJ+4P",
+        "distance": 2.4
+    },
+    {
+        "name": "Sonic Drive-In",
+        "business_status": "OPERATIONAL",
+        "address": "1764 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.7,
+        "user_ratings_total": 752,
+        "plus_code": "869G8CMG+H7",
+        "distance": 3.08
+    },
+    {
+        "name": "McDonald's",
+        "business_status": "OPERATIONAL",
+        "address": "1701 North Kingshighway Street, Cape Girardeau",
+        "types": [
+            "cafe",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.6,
+        "user_ratings_total": 280,
+        "plus_code": "869G8CJG+JQ",
+        "distance": 2.82
+    },
+    {
+        "name": "Sedona Bistro",
+        "business_status": "OPERATIONAL",
+        "address": "1812 Carondelet Drive #101, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.6,
+        "user_ratings_total": 227,
+        "plus_code": "869G8CPF+2X",
+        "distance": 3.2
+    },
+    {
+        "name": "FRESH Healthy Cafe Cape Girardeau",
+        "business_status": "OPERATIONAL",
+        "address": "1707 North Kingshighway Street Suite 109, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "cafe",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.6,
+        "user_ratings_total": 67,
+        "plus_code": "869G8CJG+MG",
+        "distance": 2.88
+    },
+    {
         "name": "Katy O'Ferrell's Publick House",
         "business_status": "OPERATIONAL",
         "address": "300 Broadway Street, Cape Girardeau",
@@ -445,6 +1666,539 @@
         "user_ratings_total": 939,
         "plus_code": "869G8F4H+GM",
         "distance": 2.6
+    },
+    {
+        "name": "Minglewood Brewery",
+        "business_status": "OPERATIONAL",
+        "address": "121 Broadway Street, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.6,
+        "user_ratings_total": 695,
+        "plus_code": "869G8F4J+8C",
+        "distance": 2.78
+    },
+    {
+        "name": "Port Cape Girardeau Restaurant and Lounge",
+        "business_status": "OPERATIONAL",
+        "address": "19 North Water Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "bar",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "user_ratings_total": 1042,
+        "plus_code": "869G8F3J+VR",
+        "distance": 2.91
+    },
+    {
+        "name": "Socials Cafe & Catering LLC",
+        "business_status": "OPERATIONAL",
+        "address": "31 Main Street, Cape Girardeau",
+        "types": [
+            "cafe",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.3,
+        "user_ratings_total": 87,
+        "plus_code": "869G8F3J+PH",
+        "distance": 2.88
+    },
+    {
+        "name": "Beacon 53",
+        "business_status": "OPERATIONAL",
+        "address": "777 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.6,
+        "user_ratings_total": 74,
+        "plus_code": "869G8F7M+85",
+        "distance": 2.71
+    },
+    {
+        "name": "Broussard's Cajun Cuisine",
+        "business_status": "OPERATIONAL",
+        "address": "114 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.7,
+        "user_ratings_total": 3610,
+        "plus_code": "869G8F4J+3P",
+        "distance": 2.87
+    },
+    {
+        "name": "Yuzu",
+        "business_status": "OPERATIONAL",
+        "address": "424 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.8,
+        "user_ratings_total": 33,
+        "plus_code": "869G8F4G+JQ",
+        "distance": 2.41
+    },
+    {
+        "name": "Speck Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "430 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.6,
+        "user_ratings_total": 252,
+        "plus_code": "869G8F4G+HP",
+        "distance": 2.41
+    },
+    {
+        "name": "Kenny's Flippin Burgers",
+        "business_status": "OPERATIONAL",
+        "address": "418 Broadway Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "user_ratings_total": 562,
+        "plus_code": "869G8F4G+HR",
+        "distance": 2.43
+    },
+    {
+        "name": "Top of the Marq",
+        "business_status": "OPERATIONAL",
+        "address": "338 Broadway Street 7th floor, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.6,
+        "user_ratings_total": 215,
+        "plus_code": "869G8F4H+H6",
+        "distance": 2.52
+    },
+    {
+        "name": "Pasta + Sauce",
+        "business_status": "OPERATIONAL",
+        "address": "127 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.3,
+        "user_ratings_total": 78,
+        "plus_code": "869G8F4J+7J",
+        "distance": 2.82
+    },
+    {
+        "name": "Encore pizzeria + Kitchen",
+        "business_status": "OPERATIONAL",
+        "address": "46 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.7,
+        "user_ratings_total": 46,
+        "plus_code": "869G8F3J+RP",
+        "distance": 2.89
+    },
+    {
+        "name": "36 Restaurant & Bar",
+        "business_status": "OPERATIONAL",
+        "address": "36 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 3,
+        "rating": 4.8,
+        "user_ratings_total": 317,
+        "plus_code": "869G8F3J+QM",
+        "distance": 2.89
+    },
+    {
+        "name": "Urban Kitchen and Bar",
+        "business_status": "OPERATIONAL",
+        "address": "20 North Spanish Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.8,
+        "user_ratings_total": 77,
+        "plus_code": "869G8F3J+M7",
+        "distance": 2.84
+    },
+    {
+        "name": "Green's Garden - Urban Market",
+        "business_status": "OPERATIONAL",
+        "address": "2 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "cafe",
+            "store",
+            "health",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.9,
+        "user_ratings_total": 56,
+        "plus_code": "869G8F3J+CJ",
+        "distance": 2.94
+    },
+    {
+        "name": "Hotshots Sports Bar & Grill",
+        "business_status": "OPERATIONAL",
+        "address": "15 Main Street, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.1,
+        "user_ratings_total": 628,
+        "plus_code": "869G8F3J+GF",
+        "distance": 2.89
+    },
+    {
+        "name": "Ebb & Flow Fermentations",
+        "business_status": "OPERATIONAL",
+        "address": "11 South Spanish Street, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.8,
+        "user_ratings_total": 137,
+        "plus_code": "869G8F3J+73",
+        "distance": 2.85
+    },
+    {
+        "name": "The Library",
+        "business_status": "OPERATIONAL",
+        "address": "10 South Spanish Street, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "user_ratings_total": 427,
+        "plus_code": "869G8F3J+76",
+        "distance": 2.87
+    },
+    {
+        "name": "Gongura",
+        "business_status": "OPERATIONAL",
+        "address": "2 Main Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.8,
+        "user_ratings_total": 17,
+        "plus_code": "869G8F3J+CJ",
+        "distance": 2.94
+    },
+    {
+        "name": "Soir\u00e9e Bar and Lounge",
+        "business_status": "OPERATIONAL",
+        "address": "111 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 5,
+        "user_ratings_total": 2,
+        "plus_code": "869G8F2J+34",
+        "distance": 3.05
+    },
+    {
+        "name": "True-Que",
+        "business_status": "OPERATIONAL",
+        "address": "402 Good Hope Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.8,
+        "user_ratings_total": 181,
+        "plus_code": "869G7FXG+QH",
+        "distance": 2.82
+    },
+    {
+        "name": "Sand's Pancake House",
+        "business_status": "OPERATIONAL",
+        "address": "602 Morgan Oak Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.5,
+        "user_ratings_total": 870,
+        "plus_code": "869G7FXF+98",
+        "distance": 2.71
+    },
+    {
+        "name": "Dafood Coma LLC",
+        "business_status": "OPERATIONAL",
+        "address": "322 South Sprigg Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G7FXC+HX",
+        "distance": 2.62
+    },
+    {
+        "name": "Chester's",
+        "business_status": "OPERATIONAL",
+        "address": "546 South Sprigg Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "user_ratings_total": 2,
+        "plus_code": "869G7FWC+7V",
+        "distance": 2.88
+    },
+    {
+        "name": "Rhodes Convenience Store",
+        "business_status": "OPERATIONAL",
+        "address": "546 South Sprigg Street, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.2,
+        "user_ratings_total": 209,
+        "plus_code": "869G7FWC+8Q",
+        "distance": 2.86
+    },
+    {
+        "name": "Babe's Fish Wagon",
+        "business_status": "OPERATIONAL",
+        "address": "Virginia Drive, McClure",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.8,
+        "user_ratings_total": 379,
+        "plus_code": "869G7GW3+GG",
+        "distance": 5.05
+    },
+    {
+        "name": "Hunt Brothers Pizza",
+        "business_status": "OPERATIONAL",
+        "address": "612 South Sprigg Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": null,
+        "user_ratings_total": 0,
+        "plus_code": "869G7FVC+WX",
+        "distance": 2.97
+    },
+    {
+        "name": "Rhodes Convenience Store",
+        "business_status": "OPERATIONAL",
+        "address": "449 South Kingshighway, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 3.9,
+        "user_ratings_total": 52,
+        "plus_code": "869G7CWW+62",
+        "distance": 2.41
+    },
+    {
+        "name": "J R'S Bar & Billiards",
+        "business_status": "OPERATIONAL",
+        "address": "829 South Kingshighway, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.6,
+        "user_ratings_total": 146,
+        "plus_code": "869G7CPV+FF",
+        "distance": 3.45
+    },
+    {
+        "name": "Seis Express",
+        "business_status": "OPERATIONAL",
+        "address": "440 South Mount Auburn Road, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.5,
+        "user_ratings_total": 12,
+        "plus_code": "869G7CRH+6H",
+        "distance": 3.55
+    },
+    {
+        "name": "Subway",
+        "business_status": "OPERATIONAL",
+        "address": "246 South Silver Springs Road, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "user_ratings_total": 179,
+        "plus_code": "869G7CXM+CQ",
+        "distance": 2.54
+    },
+    {
+        "name": "Logan's Roadhouse",
+        "business_status": "OPERATIONAL",
+        "address": "3012 William Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "user_ratings_total": 1519,
+        "plus_code": "869G8C2J+JC",
+        "distance": 2.51
+    },
+    {
+        "name": "Taco Bell",
+        "business_status": "OPERATIONAL",
+        "address": "3039 William Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.6,
+        "user_ratings_total": 1070,
+        "plus_code": "869G8C2J+32",
+        "distance": 2.68
     },
     {
         "name": "Pho 8",
@@ -497,1464 +2251,6 @@
         "distance": 2.77
     },
     {
-        "name": "Minglewood Brewery",
-        "business_status": "OPERATIONAL",
-        "address": "121 Broadway Street, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.6,
-        "user_ratings_total": 695,
-        "plus_code": "869G8F4J+8C",
-        "distance": 2.78
-    },
-    {
-        "name": "Hotshots Sports Bar & Grill",
-        "business_status": "OPERATIONAL",
-        "address": "15 Main Street, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.1,
-        "user_ratings_total": 628,
-        "plus_code": "869G8F3J+GF",
-        "distance": 2.89
-    },
-    {
-        "name": "Popeyes Louisiana Kitchen",
-        "business_status": "OPERATIONAL",
-        "address": "3237 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.7,
-        "user_ratings_total": 1577,
-        "plus_code": "869G8C2F+QJ",
-        "distance": 2.99
-    },
-    {
-        "name": "The Honey Baked Ham Company",
-        "business_status": "OPERATIONAL",
-        "address": "201 South Mount Auburn Road Suite G, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "meal_delivery",
-            "grocery_or_supermarket",
-            "store",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.6,
-        "user_ratings_total": 84,
-        "plus_code": "869G8C2F+CQ",
-        "distance": 3.02
-    },
-    {
-        "name": "Golden Corral Buffet & Grill",
-        "business_status": "OPERATIONAL",
-        "address": "130 Vantage Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 3.7,
-        "user_ratings_total": 2829,
-        "plus_code": "869G8C3C+PG",
-        "distance": 3.07
-    },
-    {
-        "name": "Seis Amigos",
-        "business_status": "OPERATIONAL",
-        "address": "1832 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.4,
-        "user_ratings_total": 575,
-        "plus_code": "869G8CMF+XJ",
-        "distance": 3.26
-    },
-    {
-        "name": "Panda Express",
-        "business_status": "OPERATIONAL",
-        "address": "130 Siemers Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.5,
-        "user_ratings_total": 364,
-        "plus_code": "869G8C29+C6",
-        "distance": 3.49
-    },
-    {
-        "name": "Socials Cafe & Catering LLC",
-        "business_status": "OPERATIONAL",
-        "address": "31 Main Street, Cape Girardeau",
-        "types": [
-            "cafe",
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.3,
-        "user_ratings_total": 87,
-        "plus_code": "869G8F3J+PH",
-        "distance": 2.88
-    },
-    {
-        "name": "Port Cape Girardeau Restaurant and Lounge",
-        "business_status": "OPERATIONAL",
-        "address": "19 North Water Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "bar",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.4,
-        "user_ratings_total": 1042,
-        "plus_code": "869G8F3J+VR",
-        "distance": 2.91
-    },
-    {
-        "name": "Pagliai's Pizza & Pasta(Cape Girardeau)",
-        "business_status": "OPERATIONAL",
-        "address": "1129 Broadway Street, Cape Girardeau",
-        "types": [
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.6,
-        "user_ratings_total": 641,
-        "plus_code": "869G8F58+FV",
-        "distance": 1.54
-    },
-    {
-        "name": "Domino's Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "1028 North Sprigg Street, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.2,
-        "user_ratings_total": 300,
-        "plus_code": "869G8F9G+34",
-        "distance": 2.01
-    },
-    {
-        "name": "Hucks",
-        "business_status": "OPERATIONAL",
-        "address": "353 South Kingshighway, Cape Girardeau",
-        "types": [
-            "gas_station",
-            "liquor_store",
-            "atm",
-            "convenience_store",
-            "finance",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 3.9,
-        "user_ratings_total": 483,
-        "plus_code": "869G7CXW+G9",
-        "distance": 2.04
-    },
-    {
-        "name": "Domino's Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "1410 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.1,
-        "user_ratings_total": 250,
-        "plus_code": "869G8CGP+QW",
-        "distance": 1.79
-    },
-    {
-        "name": "Broussard's Cajun Cuisine",
-        "business_status": "OPERATIONAL",
-        "address": "114 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.7,
-        "user_ratings_total": 3610,
-        "plus_code": "869G8F4J+3P",
-        "distance": 2.87
-    },
-    {
-        "name": "Celebrations Restaurant & Bar",
-        "business_status": "OPERATIONAL",
-        "address": "615 Bellevue Street, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.6,
-        "user_ratings_total": 131,
-        "plus_code": "869G8F5F+5Q",
-        "distance": 2.15
-    },
-    {
-        "name": "McAlister's Deli",
-        "business_status": "OPERATIONAL",
-        "address": "244 South Mount Auburn Road, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.5,
-        "user_ratings_total": 752,
-        "plus_code": "869G7CXG+2H",
-        "distance": 3.12
-    },
-    {
-        "name": "Outback Steakhouse",
-        "business_status": "OPERATIONAL",
-        "address": "101 Cape West Parkway, Cape Girardeau",
-        "types": [
-            "bar",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.2,
-        "user_ratings_total": 1692,
-        "plus_code": "869G8C29+9R",
-        "distance": 3.38
-    },
-    {
-        "name": "Cracker Barrel Old Country Store",
-        "business_status": "OPERATIONAL",
-        "address": "3261 William Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 3055,
-        "plus_code": "869G7CXF+V4",
-        "distance": 3.21
-    },
-    {
-        "name": "Imo's Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "1008 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.2,
-        "user_ratings_total": 477,
-        "plus_code": "869G8CCV+93",
-        "distance": 1.01
-    },
-    {
-        "name": "Culver\u2019s",
-        "business_status": "OPERATIONAL",
-        "address": "295 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.4,
-        "user_ratings_total": 1470,
-        "plus_code": "869G8C6W+5W",
-        "distance": 0.81
-    },
-    {
-        "name": "Panera Bread",
-        "business_status": "OPERATIONAL",
-        "address": "3219 William Street, Cape Girardeau",
-        "types": [
-            "cafe",
-            "meal_takeaway",
-            "bakery",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.2,
-        "user_ratings_total": 998,
-        "plus_code": "869G8C2F+MW",
-        "distance": 2.95
-    },
-    {
-        "name": "China Palace",
-        "business_status": "OPERATIONAL",
-        "address": "2123 Broadway Street, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.2,
-        "user_ratings_total": 471,
-        "plus_code": "869G8F72+2J",
-        "distance": 0.44
-    },
-    {
-        "name": "Burrito-Ville",
-        "business_status": "OPERATIONAL",
-        "address": "913 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.6,
-        "user_ratings_total": 1623,
-        "plus_code": "869G8F49+MW",
-        "distance": 1.86
-    },
-    {
-        "name": "White Castle",
-        "business_status": "OPERATIONAL",
-        "address": "102 Siemers Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.2,
-        "user_ratings_total": 2397,
-        "plus_code": "869G8C29+W4",
-        "distance": 3.44
-    },
-    {
-        "name": "Budget Inn Motel & Restaurant",
-        "business_status": "OPERATIONAL",
-        "address": "1448 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "lodging",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 2.6,
-        "user_ratings_total": 174,
-        "plus_code": "869G8CHP+4M",
-        "distance": 1.89
-    },
-    {
-        "name": "Chan's Restaurant",
-        "business_status": "OPERATIONAL",
-        "address": "1159 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.5,
-        "user_ratings_total": 717,
-        "plus_code": "869G8CFQ+7R",
-        "distance": 1.38
-    },
-    {
-        "name": "Arby's",
-        "business_status": "OPERATIONAL",
-        "address": "2134 Independence Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4,
-        "user_ratings_total": 836,
-        "plus_code": "869G8C4X+VM",
-        "distance": 1.07
-    },
-    {
-        "name": "McDonald's",
-        "business_status": "OPERATIONAL",
-        "address": "1925 Broadway Street, Cape Girardeau",
-        "types": [
-            "cafe",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.4,
-        "user_ratings_total": 1886,
-        "plus_code": "869G8F73+2M",
-        "distance": 0.45
-    },
-    {
-        "name": "Muy Bueno Mexican Restaurant",
-        "business_status": "OPERATIONAL",
-        "address": "1751 Independence Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.5,
-        "user_ratings_total": 702,
-        "plus_code": "869G8F43+9X",
-        "distance": 1.18
-    },
-    {
-        "name": "Chick-fil-A",
-        "business_status": "OPERATIONAL",
-        "address": "1 University Plaza, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.1,
-        "user_ratings_total": 79,
-        "plus_code": "869G8F79+3H",
-        "distance": 1.51
-    },
-    {
-        "name": "McDonald's",
-        "business_status": "OPERATIONAL",
-        "address": "3419 William Street, Cape Girardeau",
-        "types": [
-            "cafe",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.5,
-        "user_ratings_total": 1771,
-        "plus_code": "869G8C38+2J",
-        "distance": 3.53
-    },
-    {
-        "name": "Cape Jaycee Municipal Golf Course",
-        "business_status": "OPERATIONAL",
-        "address": "3280 Perryville Road, Cape Girardeau",
-        "types": [
-            "park",
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.3,
-        "user_ratings_total": 54,
-        "plus_code": "869G9C5Q+7G",
-        "distance": 4.81
-    },
-    {
-        "name": "Hunt Brothers Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "1320 West Cape Rock Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8FQ6+QF",
-        "distance": 2.68
-    },
-    {
-        "name": "Bistro Saffron",
-        "business_status": "OPERATIONAL",
-        "address": "1610 North Kingshighway Street #101, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.5,
-        "user_ratings_total": 318,
-        "plus_code": "869G8CHM+R9",
-        "distance": 2.24
-    },
-    {
-        "name": "Reyes Restaurant",
-        "business_status": "OPERATIONAL",
-        "address": "1434 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.9,
-        "user_ratings_total": 38,
-        "plus_code": "869G8CGP+WP",
-        "distance": 1.85
-    },
-    {
-        "name": "Rhodes Convenience Store",
-        "business_status": "OPERATIONAL",
-        "address": "1624 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.2,
-        "user_ratings_total": 190,
-        "plus_code": "869G8CJJ+4P",
-        "distance": 2.4
-    },
-    {
-        "name": "Sonic Drive-In",
-        "business_status": "OPERATIONAL",
-        "address": "1764 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.7,
-        "user_ratings_total": 752,
-        "plus_code": "869G8CMG+H7",
-        "distance": 3.08
-    },
-    {
-        "name": "McDonald's",
-        "business_status": "OPERATIONAL",
-        "address": "1701 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "cafe",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.6,
-        "user_ratings_total": 279,
-        "plus_code": "869G8CJG+JQ",
-        "distance": 2.82
-    },
-    {
-        "name": "Sedona Bistro",
-        "business_status": "OPERATIONAL",
-        "address": "1812 Carondelet Drive #101, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.6,
-        "user_ratings_total": 226,
-        "plus_code": "869G8CPF+2X",
-        "distance": 3.2
-    },
-    {
-        "name": "FRESH Healthy Cafe Cape Girardeau",
-        "business_status": "OPERATIONAL",
-        "address": "1707 North Kingshighway Street Suite 109, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "cafe",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.6,
-        "user_ratings_total": 67,
-        "plus_code": "869G8CJG+MG",
-        "distance": 2.88
-    },
-    {
-        "name": "Hunt Brothers Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "920 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8C9V+GR",
-        "distance": 0.76
-    },
-    {
-        "name": "Rhodes Convenience Store",
-        "business_status": "OPERATIONAL",
-        "address": "1126 North Sprigg Street, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.2,
-        "user_ratings_total": 53,
-        "plus_code": "869G8F9G+H7",
-        "distance": 2.06
-    },
-    {
-        "name": "Rally's",
-        "business_status": "OPERATIONAL",
-        "address": "1134 North Sprigg Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.9,
-        "user_ratings_total": 279,
-        "plus_code": "869G8F9G+Q6",
-        "distance": 2.07
-    },
-    {
-        "name": "Little Kitchen",
-        "business_status": "OPERATIONAL",
-        "address": "1036 North Sprigg Street, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.2,
-        "user_ratings_total": 186,
-        "plus_code": "869G8F9G+66",
-        "distance": 2.04
-    },
-    {
-        "name": "Papa Johns Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "820 North Sprigg Street Ste 2, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.1,
-        "user_ratings_total": 139,
-        "plus_code": "869G8F8G+43",
-        "distance": 2.0
-    },
-    {
-        "name": "Rowdy's",
-        "business_status": "OPERATIONAL",
-        "address": "United States",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 3.6,
-        "user_ratings_total": 24,
-        "plus_code": "869G8F7C+VR",
-        "distance": 1.73
-    },
-    {
-        "name": "Beacon 53",
-        "business_status": "OPERATIONAL",
-        "address": "777 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.6,
-        "user_ratings_total": 74,
-        "plus_code": "869G8F7M+85",
-        "distance": 2.71
-    },
-    {
-        "name": "Parker Hall",
-        "business_status": "OPERATIONAL",
-        "address": "940 Parker Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.4,
-        "user_ratings_total": 10,
-        "plus_code": "869G8F79+WC",
-        "distance": 1.43
-    },
-    {
-        "name": "Yuzu",
-        "business_status": "OPERATIONAL",
-        "address": "424 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.8,
-        "user_ratings_total": 33,
-        "plus_code": "869G8F4G+JQ",
-        "distance": 2.41
-    },
-    {
-        "name": "Top of the Marq",
-        "business_status": "OPERATIONAL",
-        "address": "338 Broadway Street 7th floor, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.6,
-        "user_ratings_total": 215,
-        "plus_code": "869G8F4H+H6",
-        "distance": 2.52
-    },
-    {
-        "name": "Rufus Red Hots",
-        "business_status": "CLOSED_TEMPORARILY",
-        "address": "600 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.7,
-        "user_ratings_total": 73,
-        "plus_code": "869G8F4F+PV",
-        "distance": 2.23
-    },
-    {
-        "name": "Speck Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "430 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.6,
-        "user_ratings_total": 252,
-        "plus_code": "869G8F4G+HP",
-        "distance": 2.41
-    },
-    {
-        "name": "Kenny's Flippin Burgers",
-        "business_status": "OPERATIONAL",
-        "address": "418 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.5,
-        "user_ratings_total": 562,
-        "plus_code": "869G8F4G+HR",
-        "distance": 2.43
-    },
-    {
-        "name": "Mary Jane bourbon + smokehouse",
-        "business_status": "OPERATIONAL",
-        "address": "1107 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "bar",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.5,
-        "user_ratings_total": 1050,
-        "plus_code": "869G8F59+82",
-        "distance": 1.59
-    },
-    {
-        "name": "F\u016bdio",
-        "business_status": "OPERATIONAL",
-        "address": "605 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 5,
-        "user_ratings_total": 5,
-        "plus_code": "869G8F4F+HR",
-        "distance": 2.23
-    },
-    {
-        "name": "Trio Restaurant Cape Girardeau, MO",
-        "business_status": "OPERATIONAL",
-        "address": "1027 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.8,
-        "user_ratings_total": 209,
-        "plus_code": "869G8F59+66",
-        "distance": 1.66
-    },
-    {
-        "name": "Hungry Bones",
-        "business_status": "OPERATIONAL",
-        "address": "731 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.6,
-        "user_ratings_total": 25,
-        "plus_code": "869G8F4C+MV",
-        "distance": 2.04
-    },
-    {
-        "name": "Pasta + Sauce",
-        "business_status": "OPERATIONAL",
-        "address": "127 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.3,
-        "user_ratings_total": 78,
-        "plus_code": "869G8F4J+7J",
-        "distance": 2.82
-    },
-    {
-        "name": "Broadway Bistro and Vintage Trade",
-        "business_status": "OPERATIONAL",
-        "address": "811 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.8,
-        "user_ratings_total": 33,
-        "plus_code": "869G8F4C+MG",
-        "distance": 1.98
-    },
-    {
-        "name": "Abelardo\u2019s Mexican Fresh",
-        "business_status": "OPERATIONAL",
-        "address": "1740 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.4,
-        "user_ratings_total": 292,
-        "plus_code": "869G8F75+5C",
-        "distance": 0.65
-    },
-    {
-        "name": "Encore pizzeria + Kitchen",
-        "business_status": "OPERATIONAL",
-        "address": "46 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.7,
-        "user_ratings_total": 46,
-        "plus_code": "869G8F3J+RP",
-        "distance": 2.89
-    },
-    {
-        "name": "36 Restaurant & Bar",
-        "business_status": "OPERATIONAL",
-        "address": "36 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 3,
-        "rating": 4.8,
-        "user_ratings_total": 317,
-        "plus_code": "869G8F3J+QM",
-        "distance": 2.89
-    },
-    {
-        "name": "Urban Kitchen and Bar",
-        "business_status": "OPERATIONAL",
-        "address": "20 North Spanish Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.8,
-        "user_ratings_total": 77,
-        "plus_code": "869G8F3J+M7",
-        "distance": 2.84
-    },
-    {
-        "name": "Gongura",
-        "business_status": "OPERATIONAL",
-        "address": "2 Main Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.8,
-        "user_ratings_total": 17,
-        "plus_code": "869G8F3J+CJ",
-        "distance": 2.94
-    },
-    {
-        "name": "The Library",
-        "business_status": "OPERATIONAL",
-        "address": "10 South Spanish Street, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.4,
-        "user_ratings_total": 427,
-        "plus_code": "869G8F3J+76",
-        "distance": 2.87
-    },
-    {
-        "name": "Ebb & Flow Fermentations",
-        "business_status": "OPERATIONAL",
-        "address": "11 South Spanish Street, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.8,
-        "user_ratings_total": 137,
-        "plus_code": "869G8F3J+73",
-        "distance": 2.85
-    },
-    {
-        "name": "Soir\u00e9e Bar and Lounge",
-        "business_status": "OPERATIONAL",
-        "address": "111 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 5,
-        "user_ratings_total": 2,
-        "plus_code": "869G8F2J+34",
-        "distance": 3.05
-    },
-    {
-        "name": "True-Que",
-        "business_status": "OPERATIONAL",
-        "address": "402 Good Hope Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.8,
-        "user_ratings_total": 181,
-        "plus_code": "869G7FXG+QH",
-        "distance": 2.82
-    },
-    {
-        "name": "Sand's Pancake House",
-        "business_status": "OPERATIONAL",
-        "address": "602 Morgan Oak Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.5,
-        "user_ratings_total": 870,
-        "plus_code": "869G7FXF+98",
-        "distance": 2.71
-    },
-    {
-        "name": "Dafood Coma LLC",
-        "business_status": "OPERATIONAL",
-        "address": "322 South Sprigg Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G7FXC+HX",
-        "distance": 2.62
-    },
-    {
-        "name": "Chester's",
-        "business_status": "OPERATIONAL",
-        "address": "546 South Sprigg Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4,
-        "user_ratings_total": 2,
-        "plus_code": "869G7FWC+7V",
-        "distance": 2.88
-    },
-    {
-        "name": "Rice Noodle Cai",
-        "business_status": "OPERATIONAL",
-        "address": "1017 Independence Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.7,
-        "user_ratings_total": 300,
-        "plus_code": "869G8F39+R3",
-        "distance": 1.87
-    },
-    {
-        "name": "Rhodes Convenience Store",
-        "business_status": "OPERATIONAL",
-        "address": "546 South Sprigg Street, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.2,
-        "user_ratings_total": 209,
-        "plus_code": "869G7FWC+8Q",
-        "distance": 2.86
-    },
-    {
-        "name": "Hunt Brothers Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "612 South Sprigg Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G7FVC+WX",
-        "distance": 2.97
-    },
-    {
-        "name": "Rhodes Convenience Store",
-        "business_status": "OPERATIONAL",
-        "address": "10 South West End Boulevard, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.5,
-        "user_ratings_total": 39,
-        "plus_code": "869G8F37+WM",
-        "distance": 1.64
-    },
-    {
-        "name": "KFC",
-        "business_status": "OPERATIONAL",
-        "address": "2101 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4,
-        "user_ratings_total": 791,
-        "plus_code": "869G8F33+29",
-        "distance": 1.54
-    },
-    {
-        "name": "Midtown",
-        "business_status": "OPERATIONAL",
-        "address": "1444 Independence Street, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.4,
-        "user_ratings_total": 100,
-        "plus_code": "869G8F46+7P",
-        "distance": 1.43
-    },
-    {
-        "name": "Babe's Fish Wagon",
-        "business_status": "OPERATIONAL",
-        "address": "Virginia Drive, McClure",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.8,
-        "user_ratings_total": 379,
-        "plus_code": "869G7GW3+GG",
-        "distance": 5.05
-    },
-    {
-        "name": "Hunt Brothers Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "1803 Independence Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8F43+8M",
-        "distance": 1.18
-    },
-    {
-        "name": "Shogun Japanese Sushi and Hibachi",
-        "business_status": "OPERATIONAL",
-        "address": "161 West Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "meal_takeaway",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 676,
-        "plus_code": "869G8C3R+H8",
-        "distance": 1.73
-    },
-    {
-        "name": "Dexter Bar-B-Que",
-        "business_status": "OPERATIONAL",
-        "address": "236 South Broadview Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 567,
-        "plus_code": "869G8C2V+PH",
-        "distance": 1.78
-    },
-    {
-        "name": "Hardee\u2019s",
-        "business_status": "OPERATIONAL",
-        "address": "2115 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.7,
-        "user_ratings_total": 885,
-        "plus_code": "869G8F32+37",
-        "distance": 1.53
-    },
-    {
-        "name": "BG's Deli",
-        "business_status": "OPERATIONAL",
-        "address": "205 South Plaza Way, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.1,
-        "user_ratings_total": 639,
-        "plus_code": "869G8C3X+5X",
-        "distance": 1.51
-    },
-    {
-        "name": "El Torero Mexican Grill",
-        "business_status": "OPERATIONAL",
-        "address": "2120 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "meal_takeaway",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.3,
-        "user_ratings_total": 1131,
-        "plus_code": "869G8F32+C3",
-        "distance": 1.44
-    },
-    {
-        "name": "China Crown buffet",
-        "business_status": "OPERATIONAL",
-        "address": "329 South Kingshighway, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.3,
-        "user_ratings_total": 650,
-        "plus_code": "869G8C2W+39",
-        "distance": 1.89
-    },
-    {
-        "name": "Grecian Steak House",
-        "business_status": "OPERATIONAL",
-        "address": "2013 Independence Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.3,
-        "user_ratings_total": 597,
-        "plus_code": "869G8F42+6M",
-        "distance": 1.2
-    },
-    {
-        "name": "Fazoli's",
-        "business_status": "OPERATIONAL",
-        "address": "5 South Kingshighway, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.1,
-        "user_ratings_total": 647,
-        "plus_code": "869G8C4X+F3",
-        "distance": 1.22
-    },
-    {
         "name": "QDOBA Mexican Eats",
         "business_status": "OPERATIONAL",
         "address": "3019 William Street Suite 101, Cape Girardeau",
@@ -1962,8 +2258,8 @@
             "bar",
             "restaurant",
             "food",
-            "store",
             "point_of_interest",
+            "store",
             "establishment"
         ],
         "price_level": 1,
@@ -1971,141 +2267,6 @@
         "user_ratings_total": 567,
         "plus_code": "869G8C2J+4J",
         "distance": 2.57
-    },
-    {
-        "name": "Wendy's",
-        "business_status": "OPERATIONAL",
-        "address": "35 South Kingshighway, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.8,
-        "user_ratings_total": 1214,
-        "plus_code": "869G8C3W+MV",
-        "distance": 1.43
-    },
-    {
-        "name": "Papa Murphy's | Take 'N' Bake Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "2510 William Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.7,
-        "user_ratings_total": 231,
-        "plus_code": "869G8C3R+PW",
-        "distance": 1.62
-    },
-    {
-        "name": "Dairy Queen Grill & Chill",
-        "business_status": "OPERATIONAL",
-        "address": "31 South Kingshighway, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.8,
-        "user_ratings_total": 471,
-        "plus_code": "869G8C3W+MG",
-        "distance": 1.46
-    },
-    {
-        "name": "Rhodes Convenience Store",
-        "business_status": "OPERATIONAL",
-        "address": "449 South Kingshighway, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 3.9,
-        "user_ratings_total": 52,
-        "plus_code": "869G7CWW+62",
-        "distance": 2.41
-    },
-    {
-        "name": "J R'S Bar & Billiards",
-        "business_status": "OPERATIONAL",
-        "address": "829 South Kingshighway, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.6,
-        "user_ratings_total": 146,
-        "plus_code": "869G7CPV+FF",
-        "distance": 3.45
-    },
-    {
-        "name": "Godfather's Pizza Express",
-        "business_status": "OPERATIONAL",
-        "address": "353 South Kingshighway, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 3.6,
-        "user_ratings_total": 13,
-        "plus_code": "869G7CXW+G8",
-        "distance": 2.04
-    },
-    {
-        "name": "Hunt Brothers Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "335 Christine Street #103, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8C2X+4C",
-        "distance": 1.82
-    },
-    {
-        "name": "Taco John's",
-        "business_status": "OPERATIONAL",
-        "address": "111 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.9,
-        "user_ratings_total": 782,
-        "plus_code": "869G8C5X+C3",
-        "distance": 0.97
     },
     {
         "name": "Guys burgers",
@@ -2124,358 +2285,6 @@
         "distance": 2.34
     },
     {
-        "name": "Spawn Area BG's",
-        "business_status": "CLOSED_TEMPORARILY",
-        "address": "205 South Plaza Way, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4,
-        "user_ratings_total": 5,
-        "plus_code": "869G8C3X+5X",
-        "distance": 1.51
-    },
-    {
-        "name": "Krispy Kreme",
-        "business_status": "OPERATIONAL",
-        "address": "2122 William Street, Cape Girardeau",
-        "types": [
-            "cafe",
-            "bakery",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.2,
-        "user_ratings_total": 561,
-        "plus_code": "869G8F32+97",
-        "distance": 1.44
-    },
-    {
-        "name": "Captain D's",
-        "business_status": "OPERATIONAL",
-        "address": "205 South Kingshighway, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.7,
-        "user_ratings_total": 256,
-        "plus_code": "869G8C3W+5P",
-        "distance": 1.58
-    },
-    {
-        "name": "Rhodes Convenience Store",
-        "business_status": "OPERATIONAL",
-        "address": "2146 William Street, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "restaurant",
-            "food",
-            "store",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.1,
-        "user_ratings_total": 126,
-        "plus_code": "869G8C3X+FJ",
-        "distance": 1.44
-    },
-    {
-        "name": "Good Time Daiquiris",
-        "business_status": "OPERATIONAL",
-        "address": "2136 William Street #125, Cape Girardeau",
-        "types": [
-            "bar",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.9,
-        "user_ratings_total": 59,
-        "plus_code": "869G8F32+Q8",
-        "distance": 1.33
-    },
-    {
-        "name": "Rosati's Pizza",
-        "business_status": "OPERATIONAL",
-        "address": "2136 William Street Suite 120, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 725,
-        "plus_code": "869G8F32+R2",
-        "distance": 1.33
-    },
-    {
-        "name": "Cora's Taste of Manila",
-        "business_status": "OPERATIONAL",
-        "address": "2502 Tanner Drive Suite 200, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.9,
-        "user_ratings_total": 60,
-        "plus_code": "869G8C3V+5J",
-        "distance": 1.66
-    },
-    {
-        "name": "Citycentre",
-        "business_status": "OPERATIONAL",
-        "address": "201-241, South Broadview Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 5,
-        "user_ratings_total": 1,
-        "plus_code": "869G8C3V+5J",
-        "distance": 1.67
-    },
-    {
-        "name": "Turk Dawgs",
-        "business_status": "OPERATIONAL",
-        "address": "2502 Tanner Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 5,
-        "user_ratings_total": 16,
-        "plus_code": "869G8C3V+6J",
-        "distance": 1.66
-    },
-    {
-        "name": "Dogwood Social House Cape Girardeau",
-        "business_status": "OPERATIONAL",
-        "address": "80 South Plaza Way, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "bar",
-            "meal_takeaway",
-            "bowling_alley",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.3,
-        "user_ratings_total": 1325,
-        "plus_code": "869G8F33+W4",
-        "distance": 1.29
-    },
-    {
-        "name": "Don Carlos Authentic Mexican Restaurant And Taqueria",
-        "business_status": "OPERATIONAL",
-        "address": "221 South Broadview Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.5,
-        "user_ratings_total": 389,
-        "plus_code": "869G8C2R+VP",
-        "distance": 1.83
-    },
-    {
-        "name": "Fry Guys",
-        "business_status": "OPERATIONAL",
-        "address": "1929 Independence Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 5,
-        "user_ratings_total": 4,
-        "plus_code": "869G8F43+C2",
-        "distance": 1.14
-    },
-    {
-        "name": "TenderFix by Noah Schnapp",
-        "business_status": "OPERATIONAL",
-        "address": "2406 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 3.7,
-        "user_ratings_total": 3,
-        "plus_code": "869G8C3W+J5",
-        "distance": 1.5
-    },
-    {
-        "name": "Picadeli",
-        "business_status": "OPERATIONAL",
-        "address": "19 South Kingshighway, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8C4W+39",
-        "distance": 1.37
-    },
-    {
-        "name": "La Luna Mexican Restaurant",
-        "business_status": "OPERATIONAL",
-        "address": "97 North Kingshighway Street Ste 10, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.5,
-        "user_ratings_total": 475,
-        "plus_code": "869G8C5X+33",
-        "distance": 1.06
-    },
-    {
-        "name": "Smoothie King",
-        "business_status": "OPERATIONAL",
-        "address": "97 North Kingshighway Street Ste. 13, Cape Girardeau",
-        "types": [
-            "meal_delivery",
-            "restaurant",
-            "food",
-            "store",
-            "health",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.2,
-        "user_ratings_total": 202,
-        "plus_code": "869G8C5X+33",
-        "distance": 1.06
-    },
-    {
-        "name": "Carside To Go",
-        "business_status": "OPERATIONAL",
-        "address": "United States",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8C3V+7C",
-        "distance": 1.67
-    },
-    {
-        "name": "RSTbusinessventures",
-        "business_status": "OPERATIONAL",
-        "address": "2510 William Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": null,
-        "user_ratings_total": 0,
-        "plus_code": "869G8C3R+MW",
-        "distance": 1.63
-    },
-    {
-        "name": "Taco Bell",
-        "business_status": "OPERATIONAL",
-        "address": "335 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "meal_takeaway",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.8,
-        "user_ratings_total": 1125,
-        "plus_code": "869G8C6W+PV",
-        "distance": 0.69
-    },
-    {
-        "name": "Ty's Summer Sno",
-        "business_status": "OPERATIONAL",
-        "address": "159200010001000000, 2201 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.8,
-        "user_ratings_total": 71,
-        "plus_code": "869G8F72+4F",
-        "distance": 0.41
-    },
-    {
-        "name": "Seis Express",
-        "business_status": "OPERATIONAL",
-        "address": "440 South Mount Auburn Road, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.5,
-        "user_ratings_total": 12,
-        "plus_code": "869G7CRH+6H",
-        "distance": 3.55
-    },
-    {
         "name": "Monte Blanco Restaurants",
         "business_status": "OPERATIONAL",
         "address": "3012 Bl, Cape Girardeau",
@@ -2492,6 +2301,262 @@
         "distance": 3.04
     },
     {
+        "name": "Red Lobster",
+        "business_status": "OPERATIONAL",
+        "address": "3269 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "user_ratings_total": 1494,
+        "plus_code": "869G8C2C+VR",
+        "distance": 3.13
+    },
+    {
+        "name": "Texas Roadhouse",
+        "business_status": "OPERATIONAL",
+        "address": "13 Doctors Park Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 2824,
+        "plus_code": "869G7CXF+F5",
+        "distance": 3.28
+    },
+    {
+        "name": "Starbucks",
+        "business_status": "OPERATIONAL",
+        "address": "188 Vantage Drive, Cape Girardeau",
+        "types": [
+            "cafe",
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4,
+        "user_ratings_total": 996,
+        "plus_code": "869G8C3F+82",
+        "distance": 3.02
+    },
+    {
+        "name": "Olive Garden Italian Restaurant",
+        "business_status": "OPERATIONAL",
+        "address": "3259 William Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "user_ratings_total": 2232,
+        "plus_code": "869G8C2F+R9",
+        "distance": 3.03
+    },
+    {
+        "name": "Penn Station East Coast Subs",
+        "business_status": "OPERATIONAL",
+        "address": "127 Siemers Drive, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 256,
+        "plus_code": "869G8C28+FQ",
+        "distance": 3.58
+    },
+    {
+        "name": "Sonic Drive-In",
+        "business_status": "OPERATIONAL",
+        "address": "262 Siemers Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.9,
+        "user_ratings_total": 992,
+        "plus_code": "869G7CX9+7Q",
+        "distance": 3.56
+    },
+    {
+        "name": "Popeyes Louisiana Kitchen",
+        "business_status": "OPERATIONAL",
+        "address": "3237 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.7,
+        "user_ratings_total": 1577,
+        "plus_code": "869G8C2F+QJ",
+        "distance": 2.99
+    },
+    {
+        "name": "The Honey Baked Ham Company",
+        "business_status": "OPERATIONAL",
+        "address": "201 South Mount Auburn Road Suite G, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "meal_delivery",
+            "grocery_or_supermarket",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.6,
+        "user_ratings_total": 84,
+        "plus_code": "869G8C2F+CQ",
+        "distance": 3.02
+    },
+    {
+        "name": "Golden Corral Buffet & Grill",
+        "business_status": "OPERATIONAL",
+        "address": "130 Vantage Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 3.7,
+        "user_ratings_total": 2830,
+        "plus_code": "869G8C3C+PG",
+        "distance": 3.07
+    },
+    {
+        "name": "Panda Express",
+        "business_status": "OPERATIONAL",
+        "address": "130 Siemers Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.5,
+        "user_ratings_total": 364,
+        "plus_code": "869G8C29+C6",
+        "distance": 3.49
+    },
+    {
+        "name": "Outback Steakhouse",
+        "business_status": "OPERATIONAL",
+        "address": "101 Cape West Parkway, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "bar",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "user_ratings_total": 1692,
+        "plus_code": "869G8C29+9R",
+        "distance": 3.38
+    },
+    {
+        "name": "McAlister's Deli",
+        "business_status": "OPERATIONAL",
+        "address": "244 South Mount Auburn Road, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.5,
+        "user_ratings_total": 752,
+        "plus_code": "869G7CXG+2H",
+        "distance": 3.12
+    },
+    {
+        "name": "Cracker Barrel Old Country Store",
+        "business_status": "OPERATIONAL",
+        "address": "3261 William Street, Cape Girardeau",
+        "types": [
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.3,
+        "user_ratings_total": 3055,
+        "plus_code": "869G7CXF+V4",
+        "distance": 3.21
+    },
+    {
+        "name": "Panera Bread",
+        "business_status": "OPERATIONAL",
+        "address": "3219 William Street, Cape Girardeau",
+        "types": [
+            "cafe",
+            "bakery",
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.2,
+        "user_ratings_total": 998,
+        "plus_code": "869G8C2F+MW",
+        "distance": 2.95
+    },
+    {
+        "name": "White Castle",
+        "business_status": "OPERATIONAL",
+        "address": "102 Siemers Drive, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 4.2,
+        "user_ratings_total": 2397,
+        "plus_code": "869G8C29+W4",
+        "distance": 3.44
+    },
+    {
         "name": "Steak 'n Shake",
         "business_status": "OPERATIONAL",
         "address": "3061 William Street, Cape Girardeau",
@@ -2506,6 +2571,24 @@
         "user_ratings_total": 1903,
         "plus_code": "869G8C2H+74",
         "distance": 2.8
+    },
+    {
+        "name": "McDonald's",
+        "business_status": "OPERATIONAL",
+        "address": "3419 William Street, Cape Girardeau",
+        "types": [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": 1,
+        "rating": 3.5,
+        "user_ratings_total": 1771,
+        "plus_code": "869G8C38+2J",
+        "distance": 3.53
     },
     {
         "name": "El Acapulco Mexican Restaurant",
@@ -2535,7 +2618,7 @@
         ],
         "price_level": 1,
         "rating": 4.6,
-        "user_ratings_total": 2986,
+        "user_ratings_total": 2985,
         "plus_code": "869G8C2H+Q2",
         "distance": 2.73
     },
@@ -2556,38 +2639,6 @@
         "distance": 2.87
     },
     {
-        "name": "Asian Yummy Buffet",
-        "business_status": "OPERATIONAL",
-        "address": "3254 William Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.4,
-        "user_ratings_total": 1630,
-        "plus_code": "869G8C3F+6J",
-        "distance": 2.92
-    },
-    {
-        "name": "Bandanas Bar-B-Q Cape Girardeau",
-        "business_status": "OPERATIONAL",
-        "address": "156 Vantage Drive, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.4,
-        "user_ratings_total": 620,
-        "plus_code": "869G8C3C+9Q",
-        "distance": 3.06
-    },
-    {
         "name": "Fresh Healthy Cafe Saint Francis",
         "business_status": "OPERATIONAL",
         "address": "150 South Mount Auburn Road, Cape Girardeau",
@@ -2603,6 +2654,22 @@
         "user_ratings_total": 84,
         "plus_code": "869G8C3G+CX",
         "distance": 2.64
+    },
+    {
+        "name": "Asian Yummy Buffet",
+        "business_status": "OPERATIONAL",
+        "address": "3254 William Street, Cape Girardeau",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": 2,
+        "rating": 4.4,
+        "user_ratings_total": 1630,
+        "plus_code": "869G8C3F+6J",
+        "distance": 2.92
     },
     {
         "name": "It's Just Wings",
@@ -2657,21 +2724,20 @@
         "distance": 2.86
     },
     {
-        "name": "The Southerner",
+        "name": "Bandanas Bar-B-Q Cape Girardeau",
         "business_status": "OPERATIONAL",
-        "address": "3359 Percy Drive, Cape Girardeau",
+        "address": "156 Vantage Drive, Cape Girardeau",
         "types": [
-            "bar",
             "restaurant",
             "food",
             "point_of_interest",
             "establishment"
         ],
-        "price_level": null,
-        "rating": 4.5,
-        "user_ratings_total": 305,
-        "plus_code": "869G8C3C+X7",
-        "distance": 3.09
+        "price_level": 2,
+        "rating": 4.4,
+        "user_ratings_total": 620,
+        "plus_code": "869G8C3C+9Q",
+        "distance": 3.06
     },
     {
         "name": "The Tuscan Sun Restaurant",
@@ -2688,6 +2754,23 @@
         "user_ratings_total": 15,
         "plus_code": "869G8C3H+JV",
         "distance": 2.44
+    },
+    {
+        "name": "The Southerner",
+        "business_status": "OPERATIONAL",
+        "address": "3359 Percy Drive, Cape Girardeau",
+        "types": [
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 4.5,
+        "user_ratings_total": 305,
+        "plus_code": "869G8C3C+X7",
+        "distance": 3.09
     },
     {
         "name": "Pizza Hut Express",
@@ -2741,108 +2824,6 @@
         "distance": 3.8
     },
     {
-        "name": "Panaderia Oaxaque\u00f1a",
-        "business_status": "OPERATIONAL",
-        "address": "527 North Silver Springs Road, Cape Girardeau",
-        "types": [
-            "bakery",
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 4.7,
-        "user_ratings_total": 98,
-        "plus_code": "869G8C6M+P7",
-        "distance": 1.79
-    },
-    {
-        "name": "Huddle House",
-        "business_status": "OPERATIONAL",
-        "address": "511 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.8,
-        "user_ratings_total": 1637,
-        "plus_code": "869G8C7W+9Q",
-        "distance": 0.59
-    },
-    {
-        "name": "Andy's Frozen Custard",
-        "business_status": "OPERATIONAL",
-        "address": "809 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "store",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 4.7,
-        "user_ratings_total": 1005,
-        "plus_code": "869G8C8W+J6",
-        "distance": 0.62
-    },
-    {
-        "name": "Burger King",
-        "business_status": "OPERATIONAL",
-        "address": "2346 Broadway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 1,
-        "rating": 3.6,
-        "user_ratings_total": 926,
-        "plus_code": "869G8C7X+C8",
-        "distance": 0.49
-    },
-    {
-        "name": "Krabby Daddy's Cape Girardeau",
-        "business_status": "OPERATIONAL",
-        "address": "841 North Kingshighway Street, Cape Girardeau",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": 2,
-        "rating": 4.4,
-        "user_ratings_total": 320,
-        "plus_code": "869G8C8W+Q2",
-        "distance": 0.67
-    },
-    {
-        "name": "Rhodes Convenience Store (formerly Mercato Di Rodi)",
-        "business_status": "OPERATIONAL",
-        "address": "425 South Mount Auburn Road, Cape Girardeau",
-        "types": [
-            "convenience_store",
-            "gas_station",
-            "store",
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "price_level": null,
-        "rating": 3.7,
-        "user_ratings_total": 31,
-        "plus_code": "869G7CRH+84",
-        "distance": 3.59
-    },
-    {
         "name": "Sam's Club Cafe",
         "business_status": "OPERATIONAL",
         "address": "232 Shirley Drive, Cape Girardeau",
@@ -2859,5 +2840,24 @@
         "user_ratings_total": 2,
         "plus_code": "869G7CX7+MH",
         "distance": 3.91
+    },
+    {
+        "name": "Rhodes Convenience Store (formerly Mercato Di Rodi)",
+        "business_status": "OPERATIONAL",
+        "address": "425 South Mount Auburn Road, Cape Girardeau",
+        "types": [
+            "convenience_store",
+            "gas_station",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+        ],
+        "price_level": null,
+        "rating": 3.7,
+        "user_ratings_total": 31,
+        "plus_code": "869G7CRH+84",
+        "distance": 3.59
     }
 ]
