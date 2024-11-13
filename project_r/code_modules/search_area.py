@@ -12,12 +12,12 @@ class SearchArea:
         self.radius = radius
         
         # Hexagonal search parameters
-        self.max_radius = 243000  # Max starting radius
-        self.min_radius = 81000   # Initial radius for each hexagon
-        self.stage = 1            # Track stages in hexagonal expansion
-        self.coordinates_list_old = []
-        self.coordinates_list = []
-        self.restaurants = []     # Store found restaurant data
+        self.max_radius = 243000                                                                    # Max starting radius in meters
+        self.min_radius = 27000                                                                     # Initial radius for each hexagon in meters
+        self.stage = 1                                                                              # Track stages in hexagonal expansion
+        self.coordinates_list_old = []                                                              # Stores previous stage coordinates 
+        self.coordinates_list = []                                                                  # Store current stage coordinates
+        self.restaurants = []                                                                       # Store found restaurant data
         
         # Correct instantiation of DbDataProcessor with request_type included
         self.data_dump = DbDataProcessor(latitude, longitude, self.haversine_distance, request_type="API")
@@ -32,8 +32,7 @@ class SearchArea:
             self.restaurants = self.grid_calculator(self.latitude, self.longitude, self.min_radius)
 
         self.restaurants = self.data_dump.data_deduplicator(self.restaurants)
-
-        return self.restaurants  # Return the aggregated results as a list
+        return self.restaurants                                                                     # Return the aggregated results as a list
 
     def grid_calculator(self, center_x, center_y, radius):
         """Keeps track of position of the hexagons and manages multi-stage expansion."""
@@ -44,7 +43,7 @@ class SearchArea:
         condition = True
         while condition:
             for i in range((self.stage * 6) + 1):
-                angle = math.radians(60 * i)  # Angle per hexagon in the current ring
+                angle = math.radians(60 * i)                                                        # Angle per hexagon in the current ring
                 new_center_x = center_x + (radius / 111320) * math.cos(angle)
                 new_center_y = center_y + (radius / (111320 * math.cos(math.radians(center_x)))) * math.sin(angle)
                 
@@ -53,7 +52,7 @@ class SearchArea:
                 self.coordinates_list.append((new_center_x, new_center_y))
                 
                 if distance_from_origin > (self.radius + 1.5 * self.min_radius):
-                    condition = False  # Break condition when the radius threshold is exceeded
+                    condition = False                                                               # Break when the radius exceeded requirement
                     break
 
                 if i == 0:
@@ -87,21 +86,18 @@ class SearchArea:
     def grid_process_n_check(self, center_x, center_y, radius, depth):
         """Process and check if internal divide is needed based on restaurant count."""
         total_restaurants = self.find_restaurants(center_x, center_y, radius)
-        print("API called, number of restaurants in (", center_x, center_y, ", radius =", radius, ") =", len(total_restaurants))
+        #print("API called, number of restaurants in (", center_x, center_y, ", radius =", radius, ") =", len(total_restaurants))
         # If restaurant count exceeds the threshold, proceed to internal division
         if len(total_restaurants) > 59:
-            print("\nGone for internal divsion")
             total_restaurants.extend(self.internal_divide(center_x, center_y, radius, depth + 1))
-        
-        return total_restaurants  # Return results for the current hexagon
-
+        return total_restaurants                                                                    # Return results for the current hexagon
             
     def internal_divide(self, center_x, center_y, radius, depth):
         """Divide the circle into seven smaller circles and gather results."""
         results = []
         sub_radius = (radius / 3) + (radius / 10)
         
-        for i in range(6):  # Generate six surrounding hexagon centers
+        for i in range(6):                                                                          # Generate six surrounding hexagon centers
             angle = math.radians(60 * i)
             new_lat = center_x + (sub_radius / 111320) * math.cos(angle)
             new_lon = center_y + (sub_radius / (111320 * math.cos(math.radians(center_x)))) * math.sin(angle)
@@ -125,9 +121,8 @@ class SearchArea:
             'key': self.api_key
         }
 
-        all_pages = []  # To store results from all pages
-
-        for _ in range(3):  # Loop to handle pagination up to 3 pages
+        all_pages = []                                                                  # To store results from all pages
+        for _ in range(3):                                                              # Loop to handle pagination up to 3 pages
             response = requests.get(url, params=params)
 
             if response.status_code == 200:
@@ -135,32 +130,27 @@ class SearchArea:
                 results = data.get('results', [])
                 all_pages.extend(results)
 
-                # Break the loop if fewer than 20 results are returned
-                if len(results) < 20:
+                if len(results) < 20:                                                   # Break if fewer than 20 results are returned
                     break
-
-                # Check for the next page token to continue pagination
-                next_page_token = data.get('next_page_token')
+                
+                next_page_token = data.get('next_page_token')                           # Check for the next page token
                 if next_page_token:
                     params['pagetoken'] = next_page_token
-                    time.sleep(2)                               # Wait briefly for the next page to become available
+                    time.sleep(2)                                                       # Wait for the next page to become available
                 else:
-                    break                                       # No next page token, so break the loop
+                    break                                                               # No next page token, so break the loop
             else:
-                break                                           # Break on API call failure
+                break                                                                   # Break on API call failure
 
-        # Process the collected data to deduplicate and filter restaurants
-        unique_restaurants = self.data_dump.filter_restaurants_api(all_pages)
-
-        # Store unique results in the main restaurants list
-        self.restaurants.extend(unique_restaurants)
+        unique_restaurants = self.data_dump.filter_restaurants_api(all_pages)           # Process the collected data filter restaurants
+        self.restaurants.extend(unique_restaurants)                                     # Store unique results in the main restaurants list
         return unique_restaurants
   
     def haversine_distance(self, lat1, lon1, lat2, lon2):
         """
         Calculate the Haversine distance between two points in kilometers.
         """
-        R = 6371  # Earth radius in kilometers
+        R = 6371                                                                        # Earth radius in kilometers
         d_lat = math.radians(lat2 - lat1)
         d_lon = math.radians(lon2 - lon1)
         lat1 = math.radians(lat1)

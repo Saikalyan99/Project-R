@@ -53,13 +53,11 @@ class DbDataProcessor:
         """
         seen = set()
         unique_data = []
-
         for restaurant in data:
             identifier = (restaurant.get('name'), restaurant.get('plus_code'))
             if identifier not in seen:
                 unique_data.append(restaurant)
                 seen.add(identifier)
-
         return unique_data                              # This is the final Result @Nathan
 
     def data_into_db_insert(self, data):
