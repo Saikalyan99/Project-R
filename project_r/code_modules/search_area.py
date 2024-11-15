@@ -61,7 +61,7 @@ class SearchArea:
                     self.coordinates_list_old = self.coordinates_list.copy()
                     self.coordinates_list.clear()
                     self.stage += 1
-                    print("Moving to Stage ", self.stage, "Loop", condition, ", distance = ", distance_from_origin, " and ", (self.radius + 1.5 * self.min_radius)/1000)
+                    print("Moving to Stage ", self.stage, "Loop", condition, "\b, distance =", distance_from_origin, "and", (self.radius + 1.5 * self.min_radius)/1000)
                     index = 0
                     break
                 else:
@@ -84,7 +84,7 @@ class SearchArea:
     def grid_process_n_check(self, center_x, center_y, radius, depth):
         """ Process and check if internal divide is needed based on restaurant count """
         temp_result = self.find_restaurants(center_x, center_y, radius)
-        print("API called, no. of restaurants = ", len(temp_result), " depth = ", depth, " , radius =", radius, " at (", center_x, center_y, ")")
+        print("API called, no. of restaurants =", len(temp_result), "depth =", depth, "\b, radius =", radius, "at (", center_x, center_y, ")")
 
         if len(temp_result) > 59:                                                       # If restaurant count API limit 59, moves to internal division
             self.internal_divide(center_x, center_y, radius, depth + 1)
@@ -116,25 +116,29 @@ class SearchArea:
         }
 
         all_pages = []                                                                  # To store results from all pages
-        for _ in range(3):                                                              # Loop to handle pagination up to 3 pages
-            response = requests.get(url, params=params)
-
-            if response.status_code == 200:
-                data = response.json()
-                results = data.get('results', [])
-                all_pages.extend(results)
-
-                if len(results) < 20:                                                   # Break if fewer than 20 results are returned
-                    break
-                
-                next_page_token = data.get('next_page_token')                           # Check for the next page token
-                if next_page_token:
-                    params['pagetoken'] = next_page_token
-                    time.sleep(2)                                                       # Wait for the next page to become available
-                else:
-                    break                                                               # No next page token, so break the loop
-            else:
-                break                                                                   # Break on API call failure
+        response = requests.get(url, params=params)
+        if response.status_code == 200:                                                 # Status code 200 means successful handshake
+            data = response.json()
+            results = data.get('results', [])
+            all_pages.extend(results)
+            
+            if len(results) > 19:                                                       # If fewer than 20 results, no paging needed
+                for _ in range(2):                                                      # Loop to handle pagination of next 2 pages                
+                    next_page_token = data.get('next_page_token')                       # Check for the next page token
+                    if next_page_token:
+                        params['pagetoken'] = next_page_token
+                        time.sleep(2)                                                   # Wait for the next page to become available
+                        response = requests.get(url, params=params)                     # Make the request for the next page
+                        if response.status_code == 200:
+                            data = response.json()
+                            results = data.get('results', [])
+                            all_pages.extend(results)
+                        else:
+                            break                                                       # Break if there's an issue with the request
+                    else:
+                        break                                                           # No next page token, so break the loop
+        else:
+            print("Initial API call failed with status code:", response.status_code)
 
         unique_restaurants = self.data_dump.filter_restaurants_api(all_pages)           # Process the collected data filter restaurants
         return unique_restaurants
